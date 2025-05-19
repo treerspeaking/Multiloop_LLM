@@ -1,0 +1,2157 @@
+[
+    {
+        "query": "Considering the information from an article in The New York Times about David Sutter's philanthropic efforts and a piece from The Guardian discussing his recent investments in technology startups, which city, beginning with the letter 'S', is both the location of the charity event he sponsored and the headquarters of the startup he invested in that is pioneering artificial intelligence research?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Did the article from 'The Independent - Life and Style' on \"Britney Spears and Justin Timberlake's breakup\" suggest loyalty as a factor, while the article from 'The Independent - Life and Style' on \"Will Smith and Jada Pinkett Smith's marriage\" indicate the absence of infidelity?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "From Justin Timberlake to Sam Asghari: A timeline of Britney Spears\u2019 relationships",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/justin-timberlake-sam-asghari-britney-spears-b2431507.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-18T03:46:39+00:00",
+                "fact": "At the time, the music video for the song \u2013 which featured a woman with blonde hair - sparked rumours that he and Spears broke up because she allegedly cheated on him."
+            },
+            {
+                "title": "A timeline of Will Smith and Jada Pinkett Smith\u2019s relationship amid separation",
+                "author": "Laura Hampson and Meredith Clark",
+                "url": "https://www.independent.co.uk/life-style/love-sex/will-smith-jada-pinkett-relationship-timeline-divorce-b2427925.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-12T18:10:45+00:00",
+                "fact": "During an interview on CBS Sunday Morning earlier this month, Will said he and Jada had never accused each other of cheating."
+            }
+        ]
+    },
+    {
+        "query": "Between the report by Business Today | Latest Stock Market And Economy News India on an event involving Israel published on October 7, 2023, and the reports by Fortune on the situation in Gaza involving Israel published on October 13, 2023, was there no change in the status of Israel's actions regarding Gaza?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Israel's blockade of Gaza means that a region the size of Philadelphia faces a real risk of starvation, says Peace Studies scholar",
+                "author": "Topher L. McDougal, The Conversation",
+                "url": "https://fortune.com/2023/10/13/israel-blockade-gaza-hamas-war-starvation-food-insecurity/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-13T19:50:48+00:00",
+                "fact": "Israel stopped allowing deliveries of food, fuel and other supplies to Gaza\u2019s 2.3 million residents on Oct. 10, 2023, and is reportedly preparing for a ground invasion."
+            },
+            {
+                "title": "Israel's blockade of Gaza means that a region the size of Philadelphia faces a real risk of starvation, says Peace Studies scholar",
+                "author": "Topher L. McDougal, The Conversation",
+                "url": "https://fortune.com/2023/10/13/israel-blockade-gaza-hamas-war-starvation-food-insecurity/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-13T19:50:48+00:00",
+                "fact": "While Israel has granted permits to about 17,000 Gaza residents to enter and work in Israel, the food, fuel and medical supplies that people in Gaza use all first pass through Israel."
+            },
+            {
+                "title": "&#039;Massive intel failure by Mossad&#039;: Hamas&#039; surprise attack on Israel shocks internet",
+                "author": null,
+                "url": "https://www.businesstoday.in/latest/world/story/massive-intel-failure-by-mossad-hamas-surprise-attack-on-israel-shocks-internet-401106-2023-10-07?utm_source=rssfeed",
+                "source": "Business Today | Latest Stock Market And Economy News India",
+                "category": "business",
+                "published_at": "2023-10-07T15:37:43+00:00",
+                "fact": "Another user said that no one can carry out such a major attack against Israel without intelligence support."
+            }
+        ]
+    },
+    {
+        "query": "Do both articles from Sporting News agree that Sportsbooks never adjust the NBA Rookie of the Year betting lines or any other sports betting lines in response to gathered information or legitimate events like injuries or roster changes?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/nba-roty-odds/7af3a635d324b28ff4c554fd",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-04T22:54:23+00:00",
+                "fact": "But sportsbooks are also gathering this information, and they begin to tighten the NBA Rookie of the Year lines in response."
+            },
+            {
+                "title": "Line Shopping in Sports Betting - How to Find the Best Odds",
+                "author": "Martin Derbyshire",
+                "url": "https://www.sportingnews.com/us/betting/news/line-shopping/0f917db9336b2772ba044571",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-06T22:21:05+00:00",
+                "fact": "Every sportsbook jumps on board when a line moves or odds change for a legitimate reason, like an injury or roster move."
+            }
+        ]
+    },
+    {
+        "query": "Between the TechCrunch report on Epic Games' antitrust battle with Google published on November 6, 2023, and the TechCrunch report on the news publisher's antitrust suit against Google published on December 15, 2023, was there consistency in reporting Google's engagement in anticompetitive behavior?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "The Epic v. Google trial may come down to simple v. complicated",
+                "author": "Sean Hollister",
+                "url": "https://www.theverge.com/2023/11/7/23949849/epic-google-trial-day-one-recap-summary",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-11-07T15:00:40+00:00",
+                "fact": "But while this will probably come up later in the trial, Epic chose to focus more on simply painting Google as the bad guy on day one."
+            },
+            {
+                "title": "What to know about Fortnite maker Epic Games\u2019 antitrust battle with Google, starting today",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-06T16:47:11+00:00",
+                "fact": "It will attempt to argue that Google restrains competition within two separate markets, including the distribution of apps to Android users and the market for payment processing solutions for content inside Android apps."
+            },
+            {
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
+            }
+        ]
+    },
+    {
+        "query": "Has the narrative around the All Blacks' team focus and performance in The Roar | Sports Writers Blog articles remained consistent from the report defending a star centre after a loss to Argentina to the analysis of their playing for individual accolades, and finally to their actions in the dramatic final against the Springboks?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "THE GREATEST! Boks beat All Blacks in instant classic to claim record FOURTH RWC in controversial, dramatic final",
+                "author": "Christy Doran",
+                "url": "https://www.theroar.com.au/2023/10/29/the-greatest-boks-beat-all-blacks-in-instant-classic-to-claim-record-fourth-rwc-in-controversial-dramatic-final/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-10-28T21:06:03+00:00",
+                "fact": "Sensing an opportunity to strike against 14 men, the All Blacks kicked for the corner on a couple occasions out wide."
+            },
+            {
+                "title": "Legacy vs ego: The Springboks are playing for South Africa, the All Blacks are playing for themselves",
+                "author": "Christy Doran",
+                "url": "https://www.theroar.com.au/2023/10/27/legacy-vs-ego-the-springboks-are-playing-for-south-africa-the-all-blacks-are-playing-for-themselves/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-10-26T22:19:21+00:00",
+                "fact": "Papali\u2019i said the All Blacks were intent on sending their leaders out on a high."
+            },
+            {
+                "title": "\u2018It happens\u2019: All Blacks defend star centre after spray as Cheika heaps pressure on \u2018favourites\u2019 New Zealand",
+                "author": "Christy Doran",
+                "url": "https://www.theroar.com.au/2023/10/19/it-happens-all-blacks-defend-star-centre-after-spray-as-cheika-heaps-pressure-on-favourites-new-zealand/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-10-18T20:55:55+00:00",
+                "fact": "It comes despite Argentina knocking over the All Blacks last year in Christchurch, as well as a maiden defeat in 2020 in Sydney."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual facing a criminal trial on fraud and conspiracy charges, previously praised in contrast to Warren Buffet but is now alleged by the prosecution to have used deceit for personal gain, as reported by TechCrunch and Fortune, and whose legal proceedings are about to commence?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "The highly anticipated criminal trial for Sam Bankman-Fried, former CEO of bankrupt crypto exchange FTX, started Tuesday to determine whether he\u2019s guilty of seven counts of fraud and conspiracy."
+            },
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "But \u201call of that, all of it, was built on lies,\u201d Rehn declared to the jury."
+            },
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "Bankman-Fried was even compared to Warren Buffet and many called him the white horse of crypto (TechCrunch never did, for what it\u2019s worth)."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Was there disagreement between Polygon and Engadget on the immediate availability of the Steam Deck OLED units from Valve after the Polygon report on the Steam Deck hardware updates published at 18:00:00 on November 9, 2023, and the Engadget review of the Steam Deck OLED published at 18:00:38 on the same day?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Steam Deck OLED review: It's just better",
+                "author": "Jessica Conditt",
+                "url": "https://www.engadget.com/steam-deck-oled-review-its-just-better-180038030.html?src=rss",
+                "source": "Engadget",
+                "category": "technology",
+                "published_at": "2023-11-09T18:00:38+00:00",
+                "fact": "The Steam Deck OLED will go on sale on November 16th at 1pm ET, and Valve has units ready to ship that same day."
+            },
+            {
+                "title": "The Steam Deck OLED improves much more than its screen",
+                "author": "Chris Plante",
+                "url": "https://www.polygon.com/reviews/23950861/steam-deck-oled-review-valve-handheld-gaming",
+                "source": "Polygon",
+                "category": "entertainment",
+                "published_at": "2023-11-09T18:00:00+00:00",
+                "fact": "Since the original Steam Deck launched, Valve has been improving the hardware through updates \u2014 its team estimates around 300 to date."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from an article in The Guardian and another in The New York Times on Ralf-Peter Sch\u00e4fer, what is the first letter of the city where Sch\u00e4fer's company is planning to expand its traffic management solutions, as mentioned in both articles?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does the article from 'Live Science: The Most Interesting Articles' suggesting that 'Patients on antiretroviral therapy' should undergo regular viral load testing align with the same source's claim regarding the 'EBT-101 clinical trial' assessing safety and evaluating virus suppression without cART?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "We could end the AIDS epidemic in less than a decade. Here's how.",
+                "author": null,
+                "url": "https://www.livescience.com/health/hiv/we-could-end-the-aids-epidemic-in-less-than-a-decade-heres-how",
+                "source": "Live Science: The Most Interesting Articles",
+                "category": "science",
+                "published_at": "2023-12-01T12:00:17+00:00",
+                "fact": "And regardless of the type of ART they take, a patient should have their viral load checked regularly ."
+            },
+            {
+                "title": "Could CRISPR cure HIV someday?",
+                "author": null,
+                "url": "https://www.livescience.com/health/hiv/could-crispr-cure-hiv-someday",
+                "source": "Live Science: The Most Interesting Articles",
+                "category": "science",
+                "published_at": "2023-11-30T21:34:30+00:00",
+                "fact": "The clinical trial will next test additional doses of EBT-101 for safety and then determine whether the virus stays suppressed when patients are taken off cART."
+            }
+        ]
+    },
+    {
+        "query": "Does 'The Independent - Life and Style' article suggesting Prince William's emotional state regarding Princess Diana's death conflict with the same publication's depiction of the events leading up to her death in 'The Crown season six'?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "The Crown: What is fact and what is fiction on season 6?",
+                "author": "Isobel Lewis",
+                "url": "https://www.independent.co.uk/arts-entertainment/tv/news/crown-season-6-fact-fiction-diana-b2449430.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-11-17T19:32:16+00:00",
+                "fact": "After learning of Diana\u2019s death from his father at the royal residence of Balmoral in Scotland, William (Rufus Kampa) is left heartbroken with grief and angry at his family\u2019s response to it."
+            },
+            {
+                "title": "Fans react to most \u2018heartbreaking\u2019 scene in The Crown",
+                "author": "Meredith Clark",
+                "url": "https://www.independent.co.uk/life-style/royal-family/news/princess-diana-st-tropez-b2449049.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-11-17T09:35:32+00:00",
+                "fact": "The latest installment takes place between the late 1990s to mid-2000s, and includes the lead-up to Princess Diana\u2019s fatal Paris car crash in 1997."
+            }
+        ]
+    },
+    {
+        "query": "Which AI tool, reported by both Engadget and TechCrunch, achieved a milestone of 100 million users per day in March and is known for its diverse capabilities including completing and debugging code, composing music, and emulating a computer running Linux?",
+        "answer": "ChatGPT",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "How OpenAI's ChatGPT has changed the world in just a year",
+                "author": "Andrew Tarantola",
+                "url": "https://www.engadget.com/how-openais-chatgpt-has-changed-the-world-in-just-a-year-140050053.html?src=rss",
+                "source": "Engadget",
+                "category": "technology",
+                "published_at": "2023-11-30T14:00:50+00:00",
+                "fact": "ChatGPT also notched 100 million users per day in March, 30 times higher than two months prior."
+            },
+            {
+                "title": "One year later, ChatGPT is still alive and kicking",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/11/30/one-year-later-chatgpt-is-still-alive-and-kicking/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-30T14:10:43+00:00",
+                "fact": "ChatGPT can complete and debug code, compose music and essays, answer test questions, generate business ideas, write poetry and song lyrics, translate and summarize text and even emulate a computer running Linux."
+            }
+        ]
+    },
+    {
+        "query": "Does the TechCrunch article on GPT-4 suggest a reduced ease of prompting toxic output compared to other models, while the TechCrunch article on Meta's open source AI approach indicate concerns of potential danger and disinformation from industry competitors like Google, OpenAI, and Microsoft?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+                "author": "Alyssa Stringer",
+                "url": "https://techcrunch.com/2023/09/28/chatgpt-everything-to-know-about-the-ai-chatbot/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-09-28T20:03:39+00:00",
+                "fact": "Because GPT-4 is more likely to follow the instructions of \u201cjailbreaking\u201d prompts, the co-authors claim that GPT-4 can be more easily prompted than other LLMs to spout toxic, biased text."
+            },
+            {
+                "title": "Meta and IBM form an AI Alliance, but to what end?",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/12/05/meta-and-ibm-form-an-ai-alliance-but-to-what-end/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-05T13:58:12+00:00",
+                "fact": "Google, OpenAI and Microsoft, a close OpenAI partner and investor, have been among the chief critics of Meta\u2019s open source AI approach, arguing that it\u2019s potentially dangerous and disinformation-encouraging."
+            }
+        ]
+    },
+    {
+        "query": "Does the Sporting News article expect T.J. Hockenson to participate in the Sunday game, in contrast to the CBSSports.com article where Dennis Allen suggests Chris Olave, despite being a full participant in practice, is still uncertain to play due to concussion protocol?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Fantasy Injury Updates Week 10: News on Justin Jefferson, Ja'Marr Chase, T.J. Hockenson & Curtis Samuel",
+                "author": "Nick Brinkerhoff",
+                "url": "https://www.sportingnews.com/us/fantasy/news/fantasy-injury-updates-week-10-jefferson-chase-hockenson/e836c8483a4efe09a42774e2",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-11T21:17:00+00:00",
+                "fact": "UPDATE: NFL Network's Ian Rapoport reported Sunday morning that Hockenson is expected to play against New Orleans."
+            },
+            {
+                "title": "NFL Week 13 injuries: Browns to start Joe Flacco with Dorian Thompson-Robinson out, Saints' Olave questionable",
+                "author": "Tyler Sullivan",
+                "url": "https://www.cbssports.com/nfl/news/nfl-week-13-injuries-browns-to-start-joe-flacco-with-dorian-thompson-robinson-out-saints-olave-questionable/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-12-01T22:52:36+00:00",
+                "fact": "Head coach Dennis Allen told reporters Friday that despite Olave being a full participant in Friday's practice he is still in concussion protocol though has a chance to play."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual that communicated to Paradigm about intending to establish a board with specialists for a cryptocurrency exchange, while preferring not to have investors as directors, and is also the same person who, during a court proceeding with Judge Lewis Kaplan, conceded to being aware of a significant financial discrepancy, and is accused by the prosecution of deliberately engaging in fraudulent activities to gain wealth, power, and influence, as reported by Cnbc | World Business News Leader, The Verge, and TechCrunch?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+                "author": null,
+                "url": "https://www.cnbc.com/2023/10/06/sex-signal-messages-and-sabotaging-ftxs-code-sbf-criminal-trial.html",
+                "source": "Cnbc | World Business News Leader",
+                "category": "business",
+                "published_at": "2023-10-06T20:17:00+00:00",
+                "fact": "During cross-examination, Huang said Paradigm pressed Bankman-Fried on the board issue and was told he didn't want investors as directors but he did plan on having a board with experts."
+            },
+            {
+                "title": "Sam Bankman-Fried didn\u2019t ask where the $8 billion went",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/31/23940814/sam-bankman-fried-ftx-alameda-customer-funds-fraud-trial",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-31T19:52:07+00:00",
+                "fact": "It was not until Judge Lewis Kaplan intervened to ask if Bankman-Fried had ever been told by Yedidia about that money, in words or in substance, that Bankman-Fried admitted he\u2019d been told."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Did the Sporting News change its approach to reporting on opportunities for bettors before the Chiefs-Jets Week 4 game on September 28, 2023, compared to their coverage of bonus offers for bettors before the NFL Monday Night Football Eagles vs. Seahawks game?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "FanDuel 'Prop Stars' Picks: Best bets for Travis Kelce & Taylor Swift-inspired props for Chiefs-Jets Week 4",
+                "author": "Nick Brinkerhoff",
+                "url": "https://www.sportingnews.com/us/nfl/news/best-chiefs-jets-prop-stars-bets-fanduel-kelce-swift-snf/581275901fe0e3011cdcb562",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-09-28T21:41:00+00:00",
+                "fact": "For bettors, where there is hype, there's also an opportunity to make some money."
+            },
+            {
+                "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel\u00a0",
+                "author": "Sporting News Betting",
+                "url": "https://www.sportingnews.com/us/betting/news/best-sportsbook-bonus-offers-eagles-seahawks-mnf-bet365-betmgm-betrivers-caesars-draftkings-fanduel%C2%A0/0cac736f90d80f21daafd8a2",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-18T21:00:03+00:00",
+                "fact": "Since you need your moneyline bet to win to claim the $150 in bonus bets, if you\u2019re wagering on tonight\u2019s MNF game, you\u2019ll probably want to go with the favored Eagles."
+            }
+        ]
+    },
+    {
+        "query": "Between the report from 'The Age' on September 26, 2023, regarding Taylor Swift's interaction with Travis Kelce and the report from 'The Independent - Life and Style' on December 6, 2023, concerning Taylor Swift's relationship status with Travis Kelce, was there a change in the reporting of their relationship status?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Travis Kelce faces backlash after comments about \u2018finding a breeder\u2019 resurface amid Taylor Swift romance",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/travis-kelce-taylor-swift-children-b2438558.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-30T20:56:51+00:00",
+                "fact": "\u201cShe\u2019s got the Eras Tour booked all through next year, and she\u2019d rather die than cancel a show."
+            },
+            {
+                "title": "When pop culture and sport collide: A timeline of Taylor Swift\u2019s NFL takeover",
+                "author": "Nell Geraets",
+                "url": "https://www.theage.com.au/culture/music/when-pop-culture-and-sport-collide-a-timeline-of-taylor-swift-s-nfl-takeover-20230926-p5e7lu.html?ref=rss&utm_medium=rss&utm_source=rss_culture",
+                "source": "The Age",
+                "category": "entertainment",
+                "published_at": "2023-09-26T05:26:05+00:00",
+                "fact": "In July, speaking on the podcast he shares with his brother, New Heights, Kelce said he intended to give Swift a friendship bracelet with his number on it during her Eras Tour concert in Kansas City."
+            },
+            {
+                "title": "Taylor Swift is Time\u2019s Person of the Year",
+                "author": "Chelsea Ritschel",
+                "url": "https://www.independent.co.uk/life-style/taylor-swift-time-person-of-the-year-b2459419.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-12-06T13:55:17+00:00",
+                "fact": "Now, Swift has shared that she has nothing to hide in her new relationship with Kelce."
+            }
+        ]
+    },
+    {
+        "query": "Did TechCrunch report on Flipboard's integration of the ActivityPub protocol before The Verge discussed the structure of the ActivityPub protocol in social media contexts?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Flipboard becomes a federated app with support for ActivityPub",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/18/flipboard-becomes-a-federated-app-with-support-for-activitypub/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-18T16:00:49+00:00",
+                "fact": "\u201cWhat we\u2019re announcing on Monday is basically our roadmap for how we will be rolling out ActivityPub, and effectively tearing down the walls around our own walled garden,\u201d he added."
+            },
+            {
+                "title": "2023 in social media: the case for the fediverse",
+                "author": "David Pierce",
+                "url": "https://www.theverge.com/23990974/social-media-2023-fediverse-mastodon-threads-activitypub",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-12-19T13:00:00+00:00",
+                "fact": "In the world of ActivityPub, every post everywhere is made up of a sender, a message, and a URL."
+            }
+        ]
+    },
+    {
+        "query": "Does the FOX News - Health article attribute the positive impact on well-being and hope to the Caring Contacts program, while the FOX News - Lifestyle article suggests that Marketing practices overshadow the message of hope?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Suicide prevention program at Nebraska children's hospital emphasizes encouraging, 'life-saving' notes",
+                "author": null,
+                "url": "https://www.foxnews.com/health/suicide-prevention-program-nebraska-childrens-hospital-encouraging-life-saving-notes",
+                "source": "FOX News - Health",
+                "category": "health",
+                "published_at": "2023-10-18T09:30:30+00:00",
+                "fact": "\"The letters I\u2019ve received in return are really telling about the impact the program has on their well-being and hope for the future,\" she told Fox News Digital."
+            },
+            {
+                "title": "Christmas proves that love triumphs over hate \u2014 even amid war, suffering, tragedy and turmoil",
+                "author": null,
+                "url": "https://www.foxnews.com/lifestyle/christmas-proves-love-triumphs-hate-amid-war-suffering-tragedy-turmoil",
+                "source": "FOX News - Lifestyle",
+                "category": "entertainment",
+                "published_at": "2023-12-23T14:20:43+00:00",
+                "fact": "How can a hurting world know joy's powerful message of hope for a darkened world when marketing takes precedence over the words, \"He rules the world with truth and grace, No more let sin and sorrow grow ..."
+            }
+        ]
+    },
+    {
+        "query": "Does the Sporting News article rank Tyreek Hill as the top wide receiver for Week 14, aligning with his leading receiver status mentioned in the same source, while the CBSSports.com article focuses on his challenge to average a certain number of yards per game to fail to reach a seasonal goal, and the second Sporting News piece discusses the difficulty of achieving a specific receiving yards milestone due to upcoming opponents' defenses?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Fantasy Football WR PPR Rankings Week 14: Who to start, best sleepers at wide receiver",
+                "author": "Nick Musial",
+                "url": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-wr-ppr-rankings-week-14-wide-receiver/61c46f5567ecacb64e039100",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-07T22:11:00+00:00",
+                "fact": "The league's leading receiver, Tyreek Hill (vs. Titans in Week 14), stands as the unquestioned WR1 for Week 14 after torching the Commanders to the tune of five catches, 157 yards, and two TDs."
+            },
+            {
+                "title": "Fantasy Football Week 16 Wide Receiver Preview: Waiver adds, DFS plays, and more",
+                "author": "Heath Cummings",
+                "url": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-16-wide-receiver-preview-waiver-adds-dfs-plays-and-more/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-12-19T20:51:32+00:00",
+                "fact": "152.67 -- After missing last week's game, Tyreek Hill now needs to average almost 153 yards per game in his final three to reach his stated goal of 2,000 receiving yards this season."
+            },
+            {
+                "title": "NFL awards odds: Six longshots bettors should consider for MVP, OPOY, DPOY and more",
+                "author": "Travis Pulver",
+                "url": "https://www.sportingnews.com/us/betting/news/nfl-awards-odds-longshots-mvp-opoy-dpoy/ed7dc8b5ba19eb3e71c53349",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-05T20:45:25+00:00",
+                "fact": "Of Miami's five remaining opponents, four have pass defenses ranked in the league's top eight."
+            }
+        ]
+    },
+    {
+        "query": "Does the Sporting News article expect T.J. Hockenson to participate in the upcoming Sunday game, similar to how The Guardian reports on Cyril Baille and Jonathan Danty's participation in the game against Italy, or is there a discrepancy in their expected involvement?",
+        "answer": "Similar",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Fantasy Injury Updates Week 10: News on Justin Jefferson, Ja'Marr Chase, T.J. Hockenson & Curtis Samuel",
+                "author": "Nick Brinkerhoff",
+                "url": "https://www.sportingnews.com/us/fantasy/news/fantasy-injury-updates-week-10-jefferson-chase-hockenson/e836c8483a4efe09a42774e2",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-11T21:17:00+00:00",
+                "fact": "UPDATE: NFL Network's Ian Rapoport reported Sunday morning that Hockenson is expected to play against New Orleans."
+            },
+            {
+                "title": "Damien Penaud leads historic rout of Italy as France confirm progress in style",
+                "author": "Luke McLaughlin at OL Stadium",
+                "url": "https://www.theguardian.com/sport/2023/oct/06/rugby-world-cup-damien-penaud-leads-rout-of-italy-as-france-confirm-progress-in-style",
+                "source": "The Guardian",
+                "category": "sports",
+                "published_at": "2023-10-06T21:06:37+00:00",
+                "fact": "But the prop Cyril Baille had returned from injury in the thrashing of Namibia, along with the estimable Jonathan Danty in midfield, and both started against Italy."
+            }
+        ]
+    },
+    {
+        "query": "Was there no change in the assessment of Brock Purdy's performance after the CBSSports.com report published on October 4, 2023, and the subsequent CBSSports.com analysis of his play under pressure published on October 18, 2023?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "NFL Fantasy Football Week 5 Lineup Decisions: Starts, Sits, Sleepers, Busts to know for every game",
+                "author": "Dave Richard",
+                "url": "https://www.cbssports.com/fantasy/football/news/nfl-fantasy-football-week-5-lineup-decisions-starts-sits-sleepers-busts-to-know-for-every-game/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-04T21:56:25+00:00",
+                "fact": "LAST WEEK: Purdy's been a find ever since the 49ers put him on the field but last week he executed their offense flawlessly."
+            },
+            {
+                "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+                "author": "Dan Treacy",
+                "url": "https://www.sportingnews.com/us/nfl/news/cowboys-49ers-live-score-highlights-sunday-night-football/e46d8e03c6a948aa82f859c3",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-08T22:47:03+00:00",
+                "fact": "That's four touchdowns for Purdy alone, and San Francisco is pouring it all on the Cowboys."
+            },
+            {
+                "title": "NFL Fantasy Football Week 6 Lineup Decisions: Starts, Sits, Sleepers, Busts to know for every game",
+                "author": "Dave Richard",
+                "url": "https://www.cbssports.com/fantasy/football/news/nfl-fantasy-football-week-6-lineup-decisions-starts-sits-sleepers-busts-to-know-for-every-game/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-12T21:23:16+00:00",
+                "fact": "However, Purdy's been at his worst when pressured (like most quarterbacks), completing 50% of his throws for 6.7 yards per attempt with a gaudy 15.9% off-target rate."
+            }
+        ]
+    },
+    {
+        "query": "Does the TechCrunch article suggest that Meta is taking a different approach to content moderation in response to the Israel-Hamas war compared to Elon Musk's approach to content moderation on his platforms following Hamas attacks, as reported by TechCrunch?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Meta says it\u2019s prioritizing livestreaming checks during Israel-Hamas war",
+                "author": "Natasha Lomas",
+                "url": "https://techcrunch.com/2023/10/13/meta-israel-hamas-war-response/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-13T12:43:45+00:00",
+                "fact": "Following a content moderation warning from European Union regulators earlier this week, Meta has published an overview of how its responding to risks on its social media platforms stemming from the Israel-Hamas war."
+            },
+            {
+                "title": "EU fires urgent warning at Elon Musk\u2019s X over illegal content and disinformation following Hamas attacks",
+                "author": "Natasha Lomas",
+                "url": "https://techcrunch.com/2023/10/10/eu-dsa-warning-elon-musk-x/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-10T23:47:38+00:00",
+                "fact": "He\u2019s also ripped up a bunch of legacy content moderation policies and slashed in-house enforcement teams while promoting a decentralized, crowdsourced alternative (rebranded as Community Notes), which essentially outsources responsibility for dealing with tricky issues like disinformation to users in what looks suspiciously like another gambit to eke out extra engagement and farm confusion by applying a philosophy of extreme relativism so culture warriors are encouraged to keep forever fighting for their own \u201ctruth\u201d in the comments."
+            }
+        ]
+    },
+    {
+        "query": "Which NBA team, recently noted by Yardbarker for both its positive draft evaluations and its aging roster issues, would lead to a successful point spread bet as described by Sporting News if they win by 10 or more points?",
+        "answer": "Golden State Warriors",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Golden State's draft misses are starting to add up",
+                "author": "Wes Goldberg, RealGM",
+                "url": "https://www.yardbarker.com/nba/articles/golden_states_draft_misses_are_starting_to_add_up/s1_8276_39602204",
+                "source": "Yardbarker",
+                "category": "sports",
+                "published_at": "2023-11-29T20:41:32+00:00",
+                "fact": "It\u2019s true that the Warriors received glowing grades from draft analysts following their selections of Kuminga, out of the G-League Ignite program, at No."
+            },
+            {
+                "title": "Golden State's draft misses are starting to add up",
+                "author": "Wes Goldberg, RealGM",
+                "url": "https://www.yardbarker.com/nba/articles/golden_states_draft_misses_are_starting_to_add_up/s1_8276_39602204",
+                "source": "Yardbarker",
+                "category": "sports",
+                "published_at": "2023-11-29T20:41:32+00:00",
+                "fact": "For years, these picks and players have been a luxury for the Warriors, but the age problem is coming to a head."
+            },
+            {
+                "title": "Point Spread Betting - What is a Point Spread Bet?",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/spread-betting/c740afa218dca67d75929ee4",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-01T22:50:52+00:00",
+                "fact": "To win a bet on the Warriors, they need to win by 10 or more points."
+            }
+        ]
+    },
+    {
+        "query": "What group of individuals engaging with Sporting News has the flexibility to utilize various betting strategies across different sports and events, while also needing to be mindful of promotional restrictions and capitalizing on event hype?",
+        "answer": "Bettors",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Prop Betting - What is a Prop Bet?",
+                "author": "Martin Derbyshire",
+                "url": "https://www.sportingnews.com/us/betting/news/prop-betting/eca08189bf4e5c58e02bfeda",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-06T21:23:22+00:00",
+                "fact": "You can also bet on team props, such as whether a team will lead at the end of a certain quarter or an over/under bet on the total number of points the team will score in the game."
+            },
+            {
+                "title": "Best Golf Betting Sites and Apps - Top Sportsbooks for Golf 2023",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/golf-betting-sites/7735c28b8c223b35fb013517",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-13T21:38:36+00:00",
+                "fact": "Bettors can choose from various options: betting on the winning team, outcomes of individual matches, or prop bets such as which team scores highest in a round, who makes more birdies, or even the best-dressed team captain."
+            },
+            {
+                "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/nba-roty-odds/7af3a635d324b28ff4c554fd",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-04T22:54:23+00:00",
+                "fact": "We urge you to read the requirements for any available promotions and offers before accepting them so you\u2019re aware of any restrictions before betting."
+            },
+            {
+                "title": "FanDuel 'Prop Stars' Picks: Best bets for Travis Kelce & Taylor Swift-inspired props for Chiefs-Jets Week 4",
+                "author": "Nick Brinkerhoff",
+                "url": "https://www.sportingnews.com/us/nfl/news/best-chiefs-jets-prop-stars-bets-fanduel-kelce-swift-snf/581275901fe0e3011cdcb562",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-09-28T21:41:00+00:00",
+                "fact": "For bettors, where there is hype, there's also an opportunity to make some money."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual implicated by allegations in articles from Fortune, The Verge, and TechCrunch, suggesting he built a successful crypto exchange on falsehoods, used a proxy for unauthorized access to customer funds, struggled with managing rapid company growth, and is accused of committing fraud for personal gain?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "But \u201call of that, all of it, was built on lies,\u201d Rehn declared to the jury."
+            },
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "Using Caroline Ellison, his on-again off-again girlfriend and the CEO of Alameda, as a front, Bankman-Fried had \u201csecret access\u201d to customer money\u2014both cash and crypto\u2014the government claimed."
+            },
+            {
+                "title": "The jury finally hears from Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/27/23935683/sam-bankman-fried-ftx-fraud-direct-testimony-jury",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-28T00:12:41+00:00",
+                "fact": "Because FTX had grown so much, he could no longer run both companies, he said."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Which world-leading AI development company, founded in late 2015, is anticipated to promote an \"app store for AI\" as the main source for AI resources and is also expected to release GPT-4 with vision alongside the GPT-4 Turbo API, as reported by TechCrunch and The Age?",
+        "answer": "OpenAI",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "OpenAI buffs safety team and gives board veto power on risky AI",
+                "author": "Devin Coldewey",
+                "url": "https://techcrunch.com/2023/12/18/openai-buffs-safety-team-and-gives-board-veto-power-on-risky-ai/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-18T20:12:25+00:00",
+                "fact": "Though that\u2019s likely also true in this case, the recent leadership fracas and evolving AI risk discussion warrant taking a look at how the world\u2019s leading AI development company is approaching safety considerations."
+            },
+            {
+                "title": "8 predictions for AI in 2024",
+                "author": "Devin Coldewey",
+                "url": "https://techcrunch.com/2023/12/19/8-predictions-for-ai-in-2024/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-19T16:19:34+00:00",
+                "fact": "The \u201capp store for AI\u201d will be pushed hard as the platform to get your AI toys and tools from, and never mind Hugging Face or any open source models."
+            },
+            {
+                "title": "How ego and fear fuelled the rise of artificial intelligence",
+                "author": "Cade Metz, Karen Weise, Nico Grant and Mike Isaac",
+                "url": "https://www.theage.com.au/business/entrepreneurship/how-ego-and-fear-fuelled-the-rise-of-artificial-intelligence-20231205-p5ep7j.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+                "source": "The Age",
+                "category": "business",
+                "published_at": "2023-12-09T18:30:00+00:00",
+                "fact": "OpenAI was founded in late 2015, just a few months after he met with Altman at the Rosewood hotel in Silicon Valley."
+            },
+            {
+                "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+                "author": "Alyssa Stringer",
+                "url": "https://techcrunch.com/2023/09/28/chatgpt-everything-to-know-about-the-ai-chatbot/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-09-28T20:03:39+00:00",
+                "fact": "OpenAI announced that GPT-4 with vision will become available alongside the upcoming launch of GPT-4 Turbo API."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual implicated in decisions involving the misuse of $1 billion of customer funds for a buyout and $14 billion for debt repayment as reported by The Verge and TechCrunch, and is also facing allegations of committing fraud for personal gain according to another TechCrunch article?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Sam Bankman-Fried was a terrible boyfriend",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/10/23912036/sam-bankman-fried-ftx-caroline-ellison-alameda-research",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-10T23:50:21+00:00",
+                "fact": "It was Bankman-Fried\u2019s decision, she said, as he was the CEO of FTX."
+            },
+            {
+                "title": "SBF Trial: The latest updates from the FTX collapse\u2019s courtroom drama",
+                "author": "Morgan Little",
+                "url": "https://techcrunch.com/2023/10/06/sbf-trial-the-latest-updates-from-the-ftx-collapses-courtroom-drama/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-06T17:22:02+00:00",
+                "fact": "The second week of the trial\u2019s standout testimony came from Alameda Research\u2019s former CEO Caroline Ellison, who claimed she took $14 billion from customers to repay debts to lenders, using them as a line of credit under the instruction of SBF."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from an article in The New York Times and another in The Guardian about David Reeder, which position, represented by a single letter, did he hold at two different companies where one company is known for its pioneering technology in consumer electronics and the other is a major player in the e-commerce space?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does the TechCrunch article suggest that Meta's moderation policies are a source of relief for Palestinians in a similar way that The Guardian article implies surveillance cameras are affecting their daily lives and protest abilities?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Meta has a moderation bias problem, not just a \u2018bug,\u2019 that\u2019s suppressing Palestinian voices",
+                "author": "Morgan Sung",
+                "url": "https://techcrunch.com/2023/10/19/meta-instagram-palestine-israel-shadowban-censorship-moderation-bias/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-19T23:43:15+00:00",
+                "fact": "Al Saadi said that her frustration with Meta is common among Palestinians, both in occupied territories and across the diaspora."
+            },
+            {
+                "title": "How Chinese firm linked to repression of Uyghurs aids Israeli surveillance in West Bank",
+                "author": "Johana Bhuiyan",
+                "url": "https://www.theguardian.com/technology/2023/nov/11/west-bank-palestinians-surveillance-cameras-hikvision",
+                "source": "The Guardian",
+                "category": "technology",
+                "published_at": "2023-11-11T16:00:39+00:00",
+                "fact": "These cameras have created a chilling effect on not just the ability to protest but also on the daily lives of Palestinians who live under occupation, according to Amnesty investigators."
+            }
+        ]
+    },
+    {
+        "query": "Does the Zee Business article suggest that India's cricket team has secured a spot in the semi-finals of the World Cup, while The Roar | Sports Writers Blog article indicates that England's cricket team has only a mathematical chance of advancing to the semi-finals?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "ICC World Cup 2023: India at Cricket World Cup semi-finals so far",
+                "author": "zee business",
+                "url": "https://www.zeebiz.com/trending/sports/news-icc-world-cup-2023-india-at-cricket-world-cup-semifinals-so-far-indias-journey-in-world-cup-semifinals-rohit-sharma-sachin-tendulkar-kohli-ind-vs-sa-australia-eden-gardens-wankhede-south-africa-england-sri-lanka-262883",
+                "source": "Zee Business",
+                "category": "business",
+                "published_at": "2023-11-11T19:12:00+00:00",
+                "fact": "India will face New Zealand in the ongoing World Cup semi-final match at the Wankhede Stadium in Mumbai on Wednesday (November 15)."
+            },
+            {
+                "title": "UK View: \u2018A bridge too far\u2019 \u2013 Boycott, former greats tear into \u2018dysfunctional\u2019 Poms with World Cup defence all but dead",
+                "author": "The Roar",
+                "url": "https://www.theroar.com.au/2023/10/27/uk-view-a-bridge-too-far-boycott-former-greats-tear-into-dysfunctional-poms-with-world-cup-defence-all-but-dead/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-10-26T23:01:13+00:00",
+                "fact": "Second-last of ten on the table after a fourth abject loss in barely three weeks, this time by eight wickets and nearly 25 overs to spare against Sri Lanka having been bowled out for a miserable 156 in Bengaluru, the 2019 champions are now only mathematically a chance of scraping through to the semi-finals."
+            }
+        ]
+    },
+    {
+        "query": "What is the name of the organization behind ChatGPT, which is not only the generative AI entity that TechCrunch describes as a poster child but is also the platform where TechCrunch reports GPT-4 with vision will be launched, and is considered the top priority for further developments?",
+        "answer": "OpenAI",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "One year later, ChatGPT is still alive and kicking",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/11/30/one-year-later-chatgpt-is-still-alive-and-kicking/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-30T14:10:43+00:00",
+                "fact": "Indeed, ChatGPT became priority number one at OpenAI \u2014 not simply a one-off product but a development platform to build upon."
+            },
+            {
+                "title": "How the OpenAI fiasco could bolster Meta and the \u2018open AI\u2019 movement",
+                "author": "Paul Sawers",
+                "url": "https://techcrunch.com/2023/11/21/how-the-openai-fiasco-could-bolster-meta-and-the-open-ai-movement/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-21T15:50:50+00:00",
+                "fact": "It has been a whirlwind four days for OpenAI, the generative AI poster child behind the smash hit ChatGPT."
+            },
+            {
+                "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+                "author": "Alyssa Stringer",
+                "url": "https://techcrunch.com/2023/09/28/chatgpt-everything-to-know-about-the-ai-chatbot/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-09-28T20:03:39+00:00",
+                "fact": "OpenAI announced that GPT-4 with vision will become available alongside the upcoming launch of GPT-4 Turbo API."
+            }
+        ]
+    },
+    {
+        "query": "Was the reporting of Taylor Swift and Travis Kelce's relationship status consistent between the report from CBSSports.com published on October 12, 2023, and the report from The Independent - Life and Style published on December 6, 2023?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Taylor Swift-Travis Kelce timeline: Everything to know about rumored romance between pop star, Chiefs TE",
+                "author": "Shanna McCarriston",
+                "url": "https://www.cbssports.com/nfl/news/taylor-swift-travis-kelce-timeline-everything-to-know-about-rumored-romance-between-pop-star-chiefs-te/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-12T23:21:52+00:00",
+                "fact": "He revealed that he made a friendship bracelet, a fan tradition at her concerts, with his number on it to give to her, seemingly expressing his interest in Swift."
+            },
+            {
+                "title": "Travis Kelce says he tried to delete his \u2018nonsense\u2019 tweets before they went viral",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/taylor-swift-travis-kelce-tweets-b2453410.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-11-25T14:50:53+00:00",
+                "fact": "On his podcast, he later invited the \u201cAnti-Hero\u201d singer to one of his games at Arrowhead Stadium - an invitation she famously accepted on 24 September."
+            },
+            {
+                "title": "Taylor Swift is Time\u2019s Person of the Year",
+                "author": "Chelsea Ritschel",
+                "url": "https://www.independent.co.uk/life-style/taylor-swift-time-person-of-the-year-b2459419.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-12-06T13:55:17+00:00",
+                "fact": "Now, Swift has shared that she has nothing to hide in her new relationship with Kelce."
+            }
+        ]
+    },
+    {
+        "query": "What type of establishments, as reported by Sporting News, are likely to alter their betting odds and lines in response to news or gathered information about a team's potential to win or the performance of NBA rookies?",
+        "answer": "Sportsbooks",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Point Spread Betting - What is a Point Spread Bet?",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/spread-betting/c740afa218dca67d75929ee4",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-01T22:50:52+00:00",
+                "fact": "If a piece of news or a prevailing sentiment starts to gain traction about a particular team's increased chances of winning, this can influence how people bet, leading sportsbooks to adjust their lines accordingly."
+            },
+            {
+                "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/nba-roty-odds/7af3a635d324b28ff4c554fd",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-04T22:54:23+00:00",
+                "fact": "But sportsbooks are also gathering this information, and they begin to tighten the NBA Rookie of the Year lines in response."
+            }
+        ]
+    },
+    {
+        "query": "Did the performance of \"Nike's Latin America and Asia Pacific unit\" as reported by 'Cnbc | World Business News Leader' before the report of 'The Sydney Morning Herald' on the 'S&P 500' show agreement or disagreement in terms of positive financial growth?",
+        "answer": "Agreement",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+                "author": null,
+                "url": "https://www.cnbc.com/2023/09/28/nike-nke-earnings-q1-2024.html",
+                "source": "Cnbc | World Business News Leader",
+                "category": "business",
+                "published_at": "2023-09-28T20:31:00+00:00",
+                "fact": "Sales in its Latin America and Asia Pacific unit came in 2% higher at $1.57 billion, just shy of the $1.59 billion analysts had expected, according to StreetAccount."
+            },
+            {
+                "title": "ASX to rise after interest rate hopes boost US shares",
+                "author": "",
+                "url": "https://www.smh.com.au/business/markets/asx-to-rise-after-interest-rate-hopes-boost-us-shares-20231106-p5ehsi.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+                "source": "The Sydney Morning Herald",
+                "category": "business",
+                "published_at": "2023-11-05T20:56:22+00:00",
+                "fact": "On Wall Street, the S&P 500 climbed 40.56 points on Friday, or 0.9 per cent, to 4,358.3."
+            }
+        ]
+    },
+    {
+        "query": "Did 'Sport Grill' report on Tessa Wullaert missing a decisive penalty before 'The Roar | Sports Writers Blog' reported on Cole Palmer scoring a penalty to secure a draw for Chelsea?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Wullaert Fires Belgium to 3-2 Home Win over England In UEFA Women\u2019s Nations League",
+                "author": "James Gregory",
+                "url": "https://sportgrill.co.uk/2023/10/31/wullaert-fires-belgium-to-3-2-home-win-over-england-in-uefa-womens-nations-league/",
+                "source": "Sport Grill",
+                "category": "sports",
+                "published_at": "2023-10-31T21:42:17+00:00",
+                "fact": "Wullaert equalised for Belgium in first-half injury time before she took advantage of Georgia Stanway\u2019s handball to fire in a 85th minute winning penalty."
+            },
+            {
+                "title": "City old boy has final say for Chelsea in eight-goal thriller, supreme Salah leads Liverpool surge",
+                "author": "News",
+                "url": "https://www.theroar.com.au/2023/11/13/city-old-boy-has-final-say-for-chelsea-in-eight-goal-thriller-supreme-salah-leads-liverpool-surge/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-11-12T20:48:50+00:00",
+                "fact": "Former Manchester City player Cole Palmer has scored a penalty in the fifth minute of stoppage time as Chelsea came back to claim a 4-4 with the defending Premier League champions in a stunning match at Stamford Bridge."
+            }
+        ]
+    },
+    {
+        "query": "Does the article from 'The Independent - Life and Style' claim that Taylor Swift is secretive about her relationship with a specific individual, in contrast to the 'CBSSports.com' article which discusses her rumored romance but focuses on her attendance and performance at a specific venue?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Taylor Swift is Time\u2019s Person of the Year",
+                "author": "Chelsea Ritschel",
+                "url": "https://www.independent.co.uk/life-style/taylor-swift-time-person-of-the-year-b2459419.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-12-06T13:55:17+00:00",
+                "fact": "Now, Swift has shared that she has nothing to hide in her new relationship with Kelce."
+            },
+            {
+                "title": "Taylor Swift-Travis Kelce timeline: Everything to know about rumored romance between pop star, Chiefs TE",
+                "author": "Shanna McCarriston",
+                "url": "https://www.cbssports.com/nfl/news/taylor-swift-travis-kelce-timeline-everything-to-know-about-rumored-romance-between-pop-star-chiefs-te/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-12T23:21:52+00:00",
+                "fact": "The game is taking place at Arrowhead Stadium, where Swift has performed herself and attended a game before."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual associated with generative AI technology, noted for both supporting a teen's startup and having a significant presence in the industry, who faced allegations of not being fully truthful with the board, as reported by Fortune and multiple articles from TechCrunch?",
+        "answer": "Sam Altman",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+                "author": "Matt O'Brien, The Associated Press",
+                "url": "https://fortune.com/2023/11/18/how-did-openai-fire-sam-altman-greg-brockman-rogue-board/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-11-18T15:33:09+00:00",
+                "fact": "But it was ChatGPT\u2019s explosion into public consciousness that thrust Altman into the spotlight as a face of generative AI \u2014 technology that can produce novel imagery, passages of text and other media."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "This week, we cover Sam Altman backing a teen\u2019s AI startup, Google\u2019s hardware event (and first impressions of the Pixel 8 Pro), Flexport drama, and the ongoing FTX fallout."
+            },
+            {
+                "title": "Sam Altman ousted as OpenAI\u2019s CEO",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/11/17/sam-altman-is-out-as-openais-ceo/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-17T20:41:13+00:00",
+                "fact": "More important than being one of the most brilliant and impactful people our industry has ever had Sam is one of the most generous and caring people I know."
+            },
+            {
+                "title": "WTF is going on at OpenAI? We have theories",
+                "author": "Devin Coldewey",
+                "url": "https://techcrunch.com/2023/11/17/wtf-is-going-on-at-openai-sam-altman-fired/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-18T00:09:53+00:00",
+                "fact": "Based on the board\u2019s language and the way these giant tech companies work, this is the prevailing theory floating around right now."
+            }
+        ]
+    },
+    {
+        "query": "Does the 'Business Line' article on investment options for high networth investors suggest ignoring historical performance and management team evaluations before making decisions, unlike the 'Business Line' article's recommendations for investors considering Reliance Industries stock?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Investment options for high networth investors",
+                "author": null,
+                "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/investment-options-for-high-networth-investors/article67465515.ece",
+                "source": "Business Line",
+                "category": "business",
+                "published_at": "2023-10-28T14:42:28+00:00",
+                "fact": "It\u2019s important to consider the past track record and management team before making investment decisions."
+            },
+            {
+                "title": "Reliance Industries: With the stock having underperformed Nifty 50 in last three years, is it time to buy?",
+                "author": null,
+                "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/reliance-industries-with-the-stock-having-underperformed-nifty-50-in-last-three-years-is-it-time-to-buy/article67618354.ece",
+                "source": "Business Line",
+                "category": "business",
+                "published_at": "2023-12-09T13:15:42+00:00",
+                "fact": "With the stock still leaving some money on the table at current levels, long-term investors can accumulate it on dips for four reasons \u2014 one, reasonable valuations; two, being at pole position in India\u2019s high-growth digital and retail business; three, potential for large-scale value creation, similar to its digital and retail forays, in the renewable energy space (not reflected in current valuations); four, stable O2C business."
+            }
+        ]
+    },
+    {
+        "query": "Did the article from The Verge suggest that law enforcement adequately assessed the harassment threat towards Janani Umamaheswar and Alex Sinha, while the article from CBSSports.com considers Otto Wallin a greater threat to Anthony Joshua than Joseph Parker is to Deontay Wilder?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "The obsessive tormenter who made professors\u2019 lives miserable",
+                "author": "Erika Hayasaki",
+                "url": "https://www.theverge.com/c/features/23903125/lurker-online-harassment-stalking-asian-academics",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-25T13:00:00+00:00",
+                "fact": "Based on their own knowledge of the criminal justice system, it would not have been implausible for law enforcement to not take her behavior to be a serious threat in the first place."
+            },
+            {
+                "title": "Day of Reckoning -- featuring Anthony Joshua, Deontay Wilder: Predictions, undercard, odds, picks, start time",
+                "author": "Brian Campbell",
+                "url": "https://www.cbssports.com/boxing/news/day-of-reckoning-featuring-anthony-joshua-deontay-wilder-predictions-undercard-odds-picks-start-time/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-12-23T21:01:30+00:00",
+                "fact": "Wallin, a 33-year-old native of Sweden, is considered much more a live dog than Parker."
+            }
+        ]
+    },
+    {
+        "query": "Which individual, featured in articles by The Verge and Fortune, is alleged to have used their position to both persuade a former Jane Street colleague to join his trading and development ventures and to inappropriately utilize customer funds, actions that are now central to fraud allegations discussed in TechCrunch?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "In the end, the FTX trial was about the friends screwed along the way",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/26/23931777/ftx-sam-bankman-fried-prosecution-case-friends-family",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-26T12:00:00+00:00",
+                "fact": "Wang testified that he heard Bankman-Fried tell another trader that it was okay to continue withdrawing money from the account as long as the amount was less than FTX\u2019s total trading revenue."
+            },
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "And after Bankman-Fried left Jane Street, the high-frequency trading firm where the former billionaire got his start in finance after MIT, he persuaded Yedidia to join him as a trader at Alameda and then as a developer at FTX."
+            },
+            {
+                "title": "Sam Bankman-Fried was a terrible boyfriend",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/10/23912036/sam-bankman-fried-ftx-caroline-ellison-alameda-research",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-10T23:50:21+00:00",
+                "fact": "It was Bankman-Fried\u2019s decision, she said, as he was the CEO of FTX."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Which company is at the center of an antitrust lawsuit, as reported by The Verge and TechCrunch, where it is accused of engaging in anticompetitive behavior within the app distribution and payment processing markets, and has also been portrayed as spending billions to maintain its default search engine status while allegedly harming news publishers' bottom lines through content and revenue siphoning?",
+        "answer": "Google",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "The Epic v. Google trial may come down to simple v. complicated",
+                "author": "Sean Hollister",
+                "url": "https://www.theverge.com/2023/11/7/23949849/epic-google-trial-day-one-recap-summary",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-11-07T15:00:40+00:00",
+                "fact": "But while this will probably come up later in the trial, Epic chose to focus more on simply painting Google as the bad guy on day one."
+            },
+            {
+                "title": "5 things we learned so far about the Google antitrust case",
+                "author": "Rebecca Bellan",
+                "url": "https://techcrunch.com/2023/10/30/5-things-we-learned-so-far-about-the-google-antitrust-case/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-31T02:30:32+00:00",
+                "fact": "Monday\u2019s trial hearing revealed plenty of juicy tidbits, including the $26.3 billion Google spent making itself the default search engine across platforms in 2021, how Google tried to take it further and have Chrome preinstalled on iPhones and more."
+            },
+            {
+                "title": "What to know about Fortnite maker Epic Games\u2019 antitrust battle with Google, starting today",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-06T16:47:11+00:00",
+                "fact": "It will attempt to argue that Google restrains competition within two separate markets, including the distribution of apps to Android users and the market for payment processing solutions for content inside Android apps."
+            },
+            {
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a Bloomberg article detailing Microsoft's latest cloud computing advancements and a Wall Street Journal report on Microsoft's strategic acquisitions, which division within Microsoft, represented by a single letter, is responsible for integrating the new cloud technologies and also played a key role in the recent acquisition of a major gaming company?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Which company, recently compared for its product's performance with OpenAI's GPT-3.5 by TechCrunch, is also accused by The Age of manipulating its primary service to maximize ad revenue and is the subject of a class-action antitrust suit reported by TechCrunch for harming news publishers' bottom lines through anticompetitive practices?",
+        "answer": "Google",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Early impressions of Google\u2019s Gemini aren\u2019t great",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/12/07/early-impressions-of-googles-gemini-arent-great/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-07T16:12:30+00:00",
+                "fact": "Google compared the performance of Gemini Pro to GPT-4\u2019s predecessor, GPT-3.5, a model that\u2019s around a year old."
+            },
+            {
+                "title": "Is Google Search better than the rest? And is that fair?",
+                "author": "Tim Biggs",
+                "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+                "source": "The Age",
+                "category": "technology",
+                "published_at": "2023-10-22T18:00:00+00:00",
+                "fact": "She admits that she may have misinterpreted the evidence, but maintains that Google manipulates Search to maximise ad revenue."
+            },
+            {
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual under 30, once considered the richest in that age group, accused of committing fraud for personal gain, and previously portrayed as a trustworthy figure in the cryptocurrency industry, who also convinced a former colleague from Jane Street to join his ventures at Alameda and FTX?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "The FTX trial is bigger than Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/9/28/23893269/ftx-sam-bankman-fried-trial-evidence-crypto",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-09-28T12:00:00+00:00",
+                "fact": "Before his fall, Bankman-Fried made himself out to be the Good Boy of crypto \u2014 the trustworthy face of a sometimes-shady industry."
+            },
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "And after Bankman-Fried left Jane Street, the high-frequency trading firm where the former billionaire got his start in finance after MIT, he persuaded Yedidia to join him as a trader at Alameda and then as a developer at FTX."
+            },
+            {
+                "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+                "author": "Ingrid Lunden",
+                "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-02T13:11:07+00:00",
+                "fact": "He was the richest person in the world under 30 [and] he was going to spend it to save humanity from extinction,\u201d he said."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from an article in The New York Times and another from The Wall Street Journal about Beto Casellas, what is the first letter of the company that Casellas is currently leading as CEO, which has also recently launched a new financial product aimed at improving customer experience?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does the 'Sporting News' article suggest that the 'New York Giants' are facing a broader scope of team injuries affecting both offense and defense, unlike the 'The Guardian' article which focuses on 'Reece James' individual injury impact on the team?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "NFL power rankings: Lions, 49ers level up; Texans jump Bengals, Bills; Jets, Patriots sink to bottom for Week 11",
+                "author": "Vinnie Iyer",
+                "url": "https://www.sportingnews.com/us/nfl/news/nfl-power-rankings-lions-49ers-texans-jets-patriots/7b7ee6be935efc3c735d72ac",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-13T21:54:00+00:00",
+                "fact": "The injuries go to their offense early and remained relentless, and now their defense is falling apart, too."
+            },
+            {
+                "title": "Pochettino looks past James mistake and stakes future on his \u2018Chelsea DNA\u2019",
+                "author": "David Hytner",
+                "url": "https://www.theguardian.com/football/2023/oct/20/pochettino-reece-james-mistake-future-chelsea-dna-arsenal",
+                "source": "The Guardian",
+                "category": "sports",
+                "published_at": "2023-10-20T21:30:28+00:00",
+                "fact": "He feels really bad because he cannot help the team [because of his injury]."
+            }
+        ]
+    },
+    {
+        "query": "Did the Sporting News report on FC Cincinnati's achievement before The Roar | Sports Writers Blog mentioned Aston Villa's victory over Fulham?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Inter Miami vs FC Cincinnati live score, result, updates, highlights with Lionel Messi's MLS playoffs on line",
+                "author": "Kyle Bonn",
+                "url": "https://www.sportingnews.com/us/soccer/news/inter-miami-vs-fc-cincinnati-live-score-result-highlights-mls/6288f57a14a413f02512e266",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-07T21:30:00+00:00",
+                "fact": "FC Cincinnati won the Supporters' Shield as the regular season champion, confirmed on Wednesday despite suffering defeat."
+            },
+            {
+                "title": "City old boy has final say for Chelsea in eight-goal thriller, supreme Salah leads Liverpool surge",
+                "author": "News",
+                "url": "https://www.theroar.com.au/2023/11/13/city-old-boy-has-final-say-for-chelsea-in-eight-goal-thriller-supreme-salah-leads-liverpool-surge/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-11-12T20:48:50+00:00",
+                "fact": "Aston Villa moved to fifth, three points off the top, with their 3-1 win over Fulham at Villa Park, courtsey of an own goal from Antonee Robinson before strikes from John McGinn and Ollie Watkins."
+            }
+        ]
+    },
+    {
+        "query": "Between the TechCrunch report on Meta's moderation bias problem suppressing Palestinian voices published on October 19, 2023, and the TechCrunch report on Meta's alleged violations of the Children\u2019s Online Privacy Protection Act published on November 27, 2023, was there a change in the nature of issues reported concerning Meta's platform practices?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Meta has a moderation bias problem, not just a \u2018bug,\u2019 that\u2019s suppressing Palestinian voices",
+                "author": "Morgan Sung",
+                "url": "https://techcrunch.com/2023/10/19/meta-instagram-palestine-israel-shadowban-censorship-moderation-bias/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-19T23:43:15+00:00",
+                "fact": "Al Saadi said that her frustration with Meta is common among Palestinians, both in occupied territories and across the diaspora."
+            },
+            {
+                "title": "Meta turned a blind eye to kids on its platforms for years, unredacted lawsuit alleges",
+                "author": "Devin Coldewey",
+                "url": "https://techcrunch.com/2023/11/27/meta-turned-a-blind-eye-to-kids-on-its-platforms-for-years-unredacted-lawsuit-alleges/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-27T21:20:32+00:00",
+                "fact": "In one respect at least, however, the documentation obtained by the attorneys general of 42 states is quite specific, \u201cand it is damning,\u201d as AG Rob Bonta of California put it."
+            }
+        ]
+    },
+    {
+        "query": "Who is the subject of a criminal trial reported by TechCrunch, accused by Fortune of secretly accessing customer funds through a proxy at Alameda Research, claimed by The Verge to have struggled with the management of FTX due to its growth, and alleged by TechCrunch to have committed fraud for personal gain?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "The highly anticipated criminal trial for Sam Bankman-Fried, former CEO of bankrupt crypto exchange FTX, started Tuesday to determine whether he\u2019s guilty of seven counts of fraud and conspiracy."
+            },
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "Using Caroline Ellison, his on-again off-again girlfriend and the CEO of Alameda, as a front, Bankman-Fried had \u201csecret access\u201d to customer money\u2014both cash and crypto\u2014the government claimed."
+            },
+            {
+                "title": "The jury finally hears from Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/27/23935683/sam-bankman-fried-ftx-fraud-direct-testimony-jury",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-28T00:12:41+00:00",
+                "fact": "Because FTX had grown so much, he could no longer run both companies, he said."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Do both articles from The Verge discuss the approach of Holidays in the context of consumer preparation, with one focusing on the sale of Govee's LED light strips and the other on the shipping deadlines for Amazon Prime members?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Govee\u2019s colorful LED light strips are on sale just in time for Halloween",
+                "author": "Sheena Vasani",
+                "url": "https://www.theverge.com/2023/10/28/23934752/govee-led-strip-light-m1-matter-google-pixel-buds-pro-watch-deal-sale",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-28T16:40:43+00:00",
+                "fact": "Halloween isn\u2019t the only holiday on the horizon now that October is drawing to a close."
+            },
+            {
+                "title": "Here are the shipping deadlines to get your holiday gifts on time",
+                "author": "Sheena Vasani",
+                "url": "https://www.theverge.com/23502151/ups-usps-fedex-amazon-walmart-best-buy-target-shipping-deadlines",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-12-18T19:26:44+00:00",
+                "fact": "Prime members can get One-Day Delivery for eligible products through December 23rd with no minimum purchase amount or Two-Day Delivery through December 22nd."
+            }
+        ]
+    },
+    {
+        "query": "After The Age reported on October 22, 2023, that Google manipulates Search to maximize ad revenue, and The Verge noted changes in the internet's appearance due to Google's efforts to make it easier to navigate, did TechCrunch's December 15, 2023, article on a class action antitrust suit against Google suggest a consistent or inconsistent portrayal of Google's influence on the internet and its stakeholders?",
+        "answer": "Consistent",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "The people who ruined the internet",
+                "author": "Amanda Chicago Lewis",
+                "url": "https://www.theverge.com/features/23931789/seo-search-engine-optimization-experts-google-results",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-11-01T13:00:00+00:00",
+                "fact": "The company did accomplish that goal, but in doing so, it inadvertently and profoundly changed how the internet looked."
+            },
+            {
+                "title": "Is Google Search better than the rest? And is that fair?",
+                "author": "Tim Biggs",
+                "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+                "source": "The Age",
+                "category": "technology",
+                "published_at": "2023-10-22T18:00:00+00:00",
+                "fact": "She admits that she may have misinterpreted the evidence, but maintains that Google manipulates Search to maximise ad revenue."
+            },
+            {
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual associated with FTX and Alameda Research, as reported by The Verge, who pleaded not guilty to charges as per TechCrunch, and is accused by the prosecution of committing fraud for personal gain, with further allegations involving instructing a colleague to use customer funds to repay debts?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "The jury finally hears from Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/27/23935683/sam-bankman-fried-ftx-fraud-direct-testimony-jury",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-28T00:12:41+00:00",
+                "fact": "Because FTX had grown so much, he could no longer run both companies, he said."
+            },
+            {
+                "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+                "author": "Ingrid Lunden",
+                "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-02T13:11:07+00:00",
+                "fact": "SBF, as he\u2019s known, has pleaded not-guilty to some seven charges of fraud and conspiracy."
+            },
+            {
+                "title": "SBF Trial: The latest updates from the FTX collapse\u2019s courtroom drama",
+                "author": "Morgan Little",
+                "url": "https://techcrunch.com/2023/10/06/sbf-trial-the-latest-updates-from-the-ftx-collapses-courtroom-drama/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-06T17:22:02+00:00",
+                "fact": "The second week of the trial\u2019s standout testimony came from Alameda Research\u2019s former CEO Caroline Ellison, who claimed she took $14 billion from customers to repay debts to lenders, using them as a line of credit under the instruction of SBF."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Which NFL wide receiver, who is recognized as the top player at his position for Week 14 by Sporting News, also requires an average of almost 153 yards over his final three games according to CBSSports.com, but faces strong pass defenses in his remaining games, which might hinder his pursuit of 2,000 receiving yards for the season, despite having scored two touchdowns and accumulated 157 receiving yards in a recent victory over the Washington Commanders as reported by The Guardian?",
+        "answer": "Tyreek Hill",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Fantasy Football WR PPR Rankings Week 14: Who to start, best sleepers at wide receiver",
+                "author": "Nick Musial",
+                "url": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-wr-ppr-rankings-week-14-wide-receiver/61c46f5567ecacb64e039100",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-07T22:11:00+00:00",
+                "fact": "The league's leading receiver, Tyreek Hill (vs. Titans in Week 14), stands as the unquestioned WR1 for Week 14 after torching the Commanders to the tune of five catches, 157 yards, and two TDs."
+            },
+            {
+                "title": "Fantasy Football Week 16 Wide Receiver Preview: Waiver adds, DFS plays, and more",
+                "author": "Heath Cummings",
+                "url": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-16-wide-receiver-preview-waiver-adds-dfs-plays-and-more/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-12-19T20:51:32+00:00",
+                "fact": "-- After missing last week's game, Tyreek Hill now needs to average almost 153 yards per game in his final three to reach his stated goal of 2,000 receiving yards this season."
+            },
+            {
+                "title": "NFL roundup: Pats hit new low as Lions reach 9-3 for first time since 1962",
+                "author": "Associated Press",
+                "url": "https://www.theguardian.com/sport/2023/dec/03/nfl-roundup-sunday-scores-football",
+                "source": "The Guardian",
+                "category": "sports",
+                "published_at": "2023-12-03T22:11:26+00:00",
+                "fact": "Tyreek Hill had two touchdowns among his 157 receiving yards to help the Miami Dolphins rout the Washington Commanders (4-9)."
+            },
+            {
+                "title": "NFL awards odds: Six longshots bettors should consider for MVP, OPOY, DPOY and more",
+                "author": "Travis Pulver",
+                "url": "https://www.sportingnews.com/us/betting/news/nfl-awards-odds-longshots-mvp-opoy-dpoy/ed7dc8b5ba19eb3e71c53349",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-05T20:45:25+00:00",
+                "fact": "Of Miami's five remaining opponents, four have pass defenses ranked in the league's top eight."
+            }
+        ]
+    },
+    {
+        "query": "Does the 'Sporting News' article about Manchester United's defeat by Bayern indicate the same outcome for Manchester United's European competitions as the 'Sporting News' article about Alvaro Barreal's goal implies for Inter Miami's postseason running?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Champions League permutations, scenarios: What teams need to qualify from groups for 2023/24 Round of 16 stage",
+                "author": "Dominic Booth",
+                "url": "https://www.sportingnews.com/us/soccer/news/champions-league-permutations-scenarios-teams-groups-round-16/6a97ebef38a68bc175d441c5",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-12T21:28:00+00:00",
+                "fact": "Manchester United are out of Europe altogether after a limp display against Bayern at Old Trafford, where Kingsley Coman sealed a 1-0 win for Thomas Tuchel's side."
+            },
+            {
+                "title": "Inter Miami vs FC Cincinnati live score, result, updates, highlights with Lionel Messi's MLS playoffs on line",
+                "author": "Kyle Bonn",
+                "url": "https://www.sportingnews.com/us/soccer/news/inter-miami-vs-fc-cincinnati-live-score-result-highlights-mls/6288f57a14a413f02512e266",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-07T21:30:00+00:00",
+                "fact": "Eventually, Alvaro Barreal\u2019s 78th-minute goal ended any hope that Inter Miami had to complete a stunning playoff charge, and the defeat coupled with CF Montreal\u2019s big 4-1 victory over Portland means Inter Miami are officially out of the postseason running."
+            }
+        ]
+    },
+    {
+        "query": "Does the 'Sporting News' article claim that the England national rugby union team has had the same path to the Rugby World Cup semifinal compared to the path of The Wallabies (Australian national rugby union team) as implied by the 'Wide World Of Sports' article, with England defeating specific teams and The Wallabies' fate depending on a match between other teams?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+                "author": "Jonathan Burnett",
+                "url": "https://www.sportingnews.com/us/rugby-union/news/watch-england-vs-south-africa-stream-channel-rugby-world-cup/20ce7b361138e7c1a1574572",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-20T22:00:05+00:00",
+                "fact": "Argentina, Japan, Chile, Samoa and Fiji have all provided highlights \u2014 Los Pumas are also in the semi-finals \u2014 and England have beaten all of them."
+            },
+            {
+                "title": "The story behind anguished Wallabies star's photo",
+                "author": "wwos",
+                "url": "https://wwos.nine.com.au/rugby/world-cup-2023-news-fiji-vs-portugal-wallabies-watch-on-samu-kerevi-interview/9a78381c-57a8-4005-b911-86fe3b74c469",
+                "source": "Wide World Of Sports",
+                "category": "sports",
+                "published_at": "2023-10-07T22:10:40+00:00",
+                "fact": "S\ufeffAINT-ETIENNE: The Wallabies will have to endure a more tortuous Sunday night watch than even the worst rom com as their Rugby World Cup fate is decided by Fiji and Portugal in Toulouse."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from an article by The Times of India and another by The Hindu on Khel Ratna Awardee Ekta Bisht, which specific skill, highlighted as her strength in The Times of India, was crucial in her performance against a team that The Hindu noted she had an outstanding record against?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Between the Sporting News report on the Minnesota Vikings' offensive performance published on November 13, 2023, and the Sporting News report on the Minnesota Vikings' performance against the Chicago Bears published on November 27, 2023, was there a change in the effectiveness of the Vikings' offense as reported?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Bears vs. Vikings live score, updates, highlights from NFL 'Monday Night Football' game",
+                "author": "Dan Treacy",
+                "url": "https://www.sportingnews.com/us/nfl/news/bears-vikings-live-score-highlights-monday-night-football/9e0ddaf702f99e7aec9645db",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-27T23:32:04+00:00",
+                "fact": "They want more than three points, but it's early enough that they absolutely could settle for a field goal if it got to that point."
+            },
+            {
+                "title": "Bears vs. Vikings live score, updates, highlights from NFL 'Monday Night Football' game",
+                "author": "Dan Treacy",
+                "url": "https://www.sportingnews.com/us/nfl/news/bears-vikings-live-score-highlights-monday-night-football/9e0ddaf702f99e7aec9645db",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-27T23:32:04+00:00",
+                "fact": "The Bears' defense is all over the Vikings tonight, and Minnesota can't get out of its own way."
+            },
+            {
+                "title": "NFL power rankings: Lions, 49ers level up; Texans jump Bengals, Bills; Jets, Patriots sink to bottom for Week 11",
+                "author": "Vinnie Iyer",
+                "url": "https://www.sportingnews.com/us/nfl/news/nfl-power-rankings-lions-49ers-texans-jets-patriots/7b7ee6be935efc3c735d72ac",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-13T21:54:00+00:00",
+                "fact": "The new man on the Vikings, Josh Dobbs, keeps producing the same results they were enjoying offensively with Kirk Cousins, thanks to more help from the running game for Kevin O'Connell and the defense overall under Brian Flores."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual under 30, previously associated with FTX and Alameda Research, who faced allegations of fraud and is reported by both TechCrunch and The Verge to have had significant influence and wealth, yet struggled with the management of his rapidly growing companies?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+                "author": "Ingrid Lunden",
+                "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-02T13:11:07+00:00",
+                "fact": "He was the richest person in the world under 30 [and] he was going to spend it to save humanity from extinction,\u201d he said."
+            },
+            {
+                "title": "The jury finally hears from Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/27/23935683/sam-bankman-fried-ftx-fraud-direct-testimony-jury",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-28T00:12:41+00:00",
+                "fact": "Because FTX had grown so much, he could no longer run both companies, he said."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a Bloomberg article discussing BHP Group's financial performance in the last quarter and a Reuters report on BHP Group's recent sustainability initiatives, which single letter symbol represents the stock ticker for BHP Group on the New York Stock Exchange?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does the Polygon article suggest that the kid appeal of \"Five Nights at Freddy's\" is based on shared stories among elementary school children, while the FOX News - Lifestyle article implies that the ultimate goal of the Halloween experience for children is to have fun, indicating a difference in the perceived primary appeal of these experiences to kids?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "5 things to know before watching the Five Nights at Freddy\u2019s movie",
+                "author": "Jesse Hassenger",
+                "url": "https://www.polygon.com/23933705/five-nights-at-freddys-fnaf-movie-post-credits-scene-faq-too-scary-for-kids",
+                "source": "Polygon",
+                "category": "entertainment",
+                "published_at": "2023-10-26T21:11:01+00:00",
+                "fact": "Its kid appeal is an echo of a time when playgrounds were alight with elementary school kids describing the antics of Freddy and/or Jason, whether witnessed firsthand or pieced together from rumors."
+            },
+            {
+                "title": "Blue Halloween buckets for autism: What they mean and why they're sparking controversy",
+                "author": null,
+                "url": "https://www.foxnews.com/lifestyle/blue-halloween-buckets-autism-what-they-mean-sparking-controversy",
+                "source": "FOX News - Lifestyle",
+                "category": "entertainment",
+                "published_at": "2023-10-31T20:13:41+00:00",
+                "fact": "\"The ultimate goal is for the child to have a fun Halloween,\" Borba said."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual facing a criminal trial on fraud and conspiracy charges, who also convinced a former Jane Street colleague to join his trading and development ventures, and is accused by the prosecution of committing fraud for personal gain, with details of his trial covered by both TechCrunch and Fortune, and his alleged communications with traders reported by The Verge?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "The highly anticipated criminal trial for Sam Bankman-Fried, former CEO of bankrupt crypto exchange FTX, started Tuesday to determine whether he\u2019s guilty of seven counts of fraud and conspiracy."
+            },
+            {
+                "title": "In the end, the FTX trial was about the friends screwed along the way",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/26/23931777/ftx-sam-bankman-fried-prosecution-case-friends-family",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-26T12:00:00+00:00",
+                "fact": "Wang testified that he heard Bankman-Fried tell another trader that it was okay to continue withdrawing money from the account as long as the amount was less than FTX\u2019s total trading revenue."
+            },
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "And after Bankman-Fried left Jane Street, the high-frequency trading firm where the former billionaire got his start in finance after MIT, he persuaded Yedidia to join him as a trader at Alameda and then as a developer at FTX."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Has the stance of the Federal Reserve on interest rates as reported by The Sydney Morning Herald changed between the article published on October 1, 2023, suggesting smaller future rate cuts, and the one from November 5, 2023, indicating a potential halt to rate increases?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "ASX set to open lower as Wall Street closes September with more losses",
+                "author": "Stan Choe",
+                "url": "https://www.smh.com.au/business/markets/asx-set-to-open-lower-as-wall-street-closes-september-with-more-losses-20231002-p5e8zn.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+                "source": "The Sydney Morning Herald",
+                "category": "business",
+                "published_at": "2023-10-01T18:19:08+00:00",
+                "fact": "The Fed\u2019s main interest rate is at its highest level since 2001, and the central bank indicated last week it may cut interest rates next year by less than it earlier expected."
+            },
+            {
+                "title": "ASX to rise after interest rate hopes boost US shares",
+                "author": "",
+                "url": "https://www.smh.com.au/business/markets/asx-to-rise-after-interest-rate-hopes-boost-us-shares-20231106-p5ehsi.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+                "source": "The Sydney Morning Herald",
+                "category": "business",
+                "published_at": "2023-11-05T20:56:22+00:00",
+                "fact": "Stocks surged through the week on rising hopes that the Federal Reserve is finally done with its market-crunching hikes to interest rates, in order to get inflation under control."
+            }
+        ]
+    },
+    {
+        "query": "Which person, who has been open about her relationship with Travis Kelce and was spotted at Arrowhead Stadium, has a tour booked for the next year and has stated that paparazzi attention does not affect her, as reported by 'The Independent - Life and Style' and 'The Age'?",
+        "answer": "Taylor Swift",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Travis Kelce faces backlash after comments about \u2018finding a breeder\u2019 resurface amid Taylor Swift romance",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/travis-kelce-taylor-swift-children-b2438558.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-30T20:56:51+00:00",
+                "fact": "\u201cShe\u2019s got the Eras Tour booked all through next year, and she\u2019d rather die than cancel a show."
+            },
+            {
+                "title": "When pop culture and sport collide: A timeline of Taylor Swift\u2019s NFL takeover",
+                "author": "Nell Geraets",
+                "url": "https://www.theage.com.au/culture/music/when-pop-culture-and-sport-collide-a-timeline-of-taylor-swift-s-nfl-takeover-20230926-p5e7lu.html?ref=rss&utm_medium=rss&utm_source=rss_culture",
+                "source": "The Age",
+                "category": "entertainment",
+                "published_at": "2023-09-26T05:26:05+00:00",
+                "fact": "Love Story This finally brings us to the fated sighting of Swift at Arrowhead Stadium on Monday, cheering on No."
+            },
+            {
+                "title": "Taylor Swift reveals secret start to her relationship with Travis Kelce",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/taylor-swift-travis-kelce-relationship-b2459441.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-12-06T14:23:01+00:00",
+                "fact": "Elsewhere in the conversation with Time, the \u201cAnti-Hero\u201d singer said that she tries not to let the paparazzi get to her, even though so many of her outings with pals go on to make headlines."
+            },
+            {
+                "title": "Taylor Swift is Time\u2019s Person of the Year",
+                "author": "Chelsea Ritschel",
+                "url": "https://www.independent.co.uk/life-style/taylor-swift-time-person-of-the-year-b2459419.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-12-06T13:55:17+00:00",
+                "fact": "Now, Swift has shared that she has nothing to hide in her new relationship with Kelce."
+            }
+        ]
+    },
+    {
+        "query": "Which country, often featured in headlines from sources like 'Fortune', 'Globes English | Israel Business Arena', and 'Business Today | Latest Stock Market And Economy News India', has a history of controlling vital supplies into a blockaded region, reaching ceasefires with militant organizations, and requires intelligence support to prevent major attacks?",
+        "answer": "Israel",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Israel's blockade of Gaza means that a region the size of Philadelphia faces a real risk of starvation, says Peace Studies scholar",
+                "author": "Topher L. McDougal, The Conversation",
+                "url": "https://fortune.com/2023/10/13/israel-blockade-gaza-hamas-war-starvation-food-insecurity/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-13T19:50:48+00:00",
+                "fact": "While Israel has granted permits to about 17,000 Gaza residents to enter and work in Israel, the food, fuel and medical supplies that people in Gaza use all first pass through Israel."
+            },
+            {
+                "title": "Israel's defense undone by reliance on technology",
+                "author": "Assaf Gilead",
+                "url": "https://en.globes.co.il/en/article-1001461695#utm_source=RSS",
+                "source": "Globes English | Israel Business Arena",
+                "category": "business",
+                "published_at": "2023-11-05T13:35:33+00:00",
+                "fact": "The understandings that Israel reached with Hamas in 2012 were made \"to stop the fighting\", Ortal says, and to get life back to normal as quickly as possible."
+            },
+            {
+                "title": "&#039;Massive intel failure by Mossad&#039;: Hamas&#039; surprise attack on Israel shocks internet",
+                "author": null,
+                "url": "https://www.businesstoday.in/latest/world/story/massive-intel-failure-by-mossad-hamas-surprise-attack-on-israel-shocks-internet-401106-2023-10-07?utm_source=rssfeed",
+                "source": "Business Today | Latest Stock Market And Economy News India",
+                "category": "business",
+                "published_at": "2023-10-07T15:37:43+00:00",
+                "fact": "Another user said that no one can carry out such a major attack against Israel without intelligence support."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual associated with the crypto exchange FTX, who has been accused of using customer funds for a buyout and is facing multiple charges of fraud and conspiracy, as reported by sources like Fortune, The Verge, and TechCrunch?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "But \u201call of that, all of it, was built on lies,\u201d Rehn declared to the jury."
+            },
+            {
+                "title": "Sam Bankman-Fried was a terrible boyfriend",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/10/23912036/sam-bankman-fried-ftx-caroline-ellison-alameda-research",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-10T23:50:21+00:00",
+                "fact": "It was Bankman-Fried\u2019s decision, she said, as he was the CEO of FTX."
+            },
+            {
+                "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+                "author": "Ingrid Lunden",
+                "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-02T13:11:07+00:00",
+                "fact": "SBF, as he\u2019s known, has pleaded not-guilty to some seven charges of fraud and conspiracy."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a New York Times article detailing the launch date of Gemini Ultra and a Forbes report on the projected market share increase for Gemini Ultra's manufacturer after its release, which month is both the expected launch time for Gemini Ultra and the period predicted for the manufacturer's market share growth?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Before the TechCrunch report on Sam Altman backing a teen's AI startup published on October 7, 2023, compared to the TechCrunch report suggesting Sam Altman was not being fully truthful with the board published on November 18, 2023, was there a change in the portrayal of Sam Altman's professional conduct?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+                "author": "Matt O'Brien, The Associated Press",
+                "url": "https://fortune.com/2023/11/18/how-did-openai-fire-sam-altman-greg-brockman-rogue-board/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-11-18T15:33:09+00:00",
+                "fact": "But it was ChatGPT\u2019s explosion into public consciousness that thrust Altman into the spotlight as a face of generative AI \u2014 technology that can produce novel imagery, passages of text and other media."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "This week, we cover Sam Altman backing a teen\u2019s AI startup, Google\u2019s hardware event (and first impressions of the Pixel 8 Pro), Flexport drama, and the ongoing FTX fallout."
+            },
+            {
+                "title": "WTF is going on at OpenAI? We have theories",
+                "author": "Devin Coldewey",
+                "url": "https://techcrunch.com/2023/11/17/wtf-is-going-on-at-openai-sam-altman-fired/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-18T00:09:53+00:00",
+                "fact": "Based on the board\u2019s language and the way these giant tech companies work, this is the prevailing theory floating around right now."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual that Caroline Ellison took $14 billion from customers for, who is also the subject of a criminal trial on seven counts of fraud and conspiracy according to TechCrunch, and is alleged by the prosecution to have committed these acts for wealth, power, and influence?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "SBF Trial: The latest updates from the FTX collapse\u2019s courtroom drama",
+                "author": "Morgan Little",
+                "url": "https://techcrunch.com/2023/10/06/sbf-trial-the-latest-updates-from-the-ftx-collapses-courtroom-drama/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-06T17:22:02+00:00",
+                "fact": "The second week of the trial\u2019s standout testimony came from Alameda Research\u2019s former CEO Caroline Ellison, who claimed she took $14 billion from customers to repay debts to lenders, using them as a line of credit under the instruction of SBF."
+            },
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "The highly anticipated criminal trial for Sam Bankman-Fried, former CEO of bankrupt crypto exchange FTX, started Tuesday to determine whether he\u2019s guilty of seven counts of fraud and conspiracy."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Does the article from 'The Age' suggest that 'The individual's dating intentions' were focused on starting a family, while 'The Independent - Life and Style' article's claim about 'Taylor Swift and Travis Kelce' centers on speculation about their dating status without indicating a similar intention?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "At 37, Alexandra found herself broke, heartbroken and living with her parents",
+                "author": "Dilvin Yasa",
+                "url": "https://www.theage.com.au/lifestyle/life-and-relationships/at-37-alexandra-found-herself-broke-heartbroken-and-living-with-her-parents-20231109-p5eirq.html?ref=rss&utm_medium=rss&utm_source=rss_lifestyle",
+                "source": "The Age",
+                "category": "entertainment",
+                "published_at": "2023-11-25T18:00:00+00:00",
+                "fact": "Then I launched myself into dating to try to find a man to have a family with."
+            },
+            {
+                "title": "Fans spot Travis Kelce wearing Taylor Swift-themed friendship bracelet before she attended his game",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/travis-kelce-taylor-swift-friendship-bracelet-b2419065.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-09-26T22:05:34+00:00",
+                "fact": "The post came after Swift was seen enthusiastically cheering him on in the box seats at Arrowhead Stadium, fuelling speculation that she and the athlete are dating."
+            }
+        ]
+    },
+    {
+        "query": "Does the 'Essentially Sports' article suggest that the NBA's Christmas games are at risk due to the NFL's decisions, while the 'FOX News - Lifestyle' article discusses the impact of parents using Christmas as a bribe, without mentioning any potential threat to the NBA's Christmas dominance?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Are NBA Christmas Day Games a Better Tradition Than NFL Thanksgiving Day Games?",
+                "author": "Dushyant Singh",
+                "url": "https://www.essentiallysports.com/nba-active-basketball-nfl-news-perspective-are-nba-christmas-day-games-a-better-tradition-than-nfl-thanksgiving-day-games/",
+                "source": "Essentially Sports",
+                "category": "sports",
+                "published_at": "2023-12-25T21:27:33+00:00",
+                "fact": "However, the NFL\u2019s recent decisions could threaten the NBA\u2019s stronghold on Christmas."
+            },
+            {
+                "title": "The 5 biggest mistakes parents make at Christmastime, according to a parenting expert",
+                "author": null,
+                "url": "https://www.foxnews.com/lifestyle/5-biggest-mistakes-parents-make-christmastime-parenting-expert",
+                "source": "FOX News - Lifestyle",
+                "category": "entertainment",
+                "published_at": "2023-12-09T19:46:55+00:00",
+                "fact": "\"It\u2019s also lazy parenting, which never pays off in the long run,\" she said."
+            }
+        ]
+    },
+    {
+        "query": "Did Sporting News fail to indicate a similar issue with Williams and Rice's attempt at a deep shot in the USC vs. Notre Dame game on October 14th after CBSSports.com reported on the Dallas Cowboys' offensive strategy involving deeper passes on October 12th?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "NFL Fantasy Football Week 6 Lineup Decisions: Starts, Sits, Sleepers, Busts to know for every game",
+                "author": "Dave Richard",
+                "url": "https://www.cbssports.com/fantasy/football/news/nfl-fantasy-football-week-6-lineup-decisions-starts-sits-sleepers-busts-to-know-for-every-game/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-12T21:23:16+00:00",
+                "fact": "And the scary part is that his ADOT was over a yard lower (5.4) going into last week's game, so the Cowboys tried to let him air it out and the plan completely backfired."
+            },
+            {
+                "title": "USC vs. Notre Dame live score, updates, highlights from Week 7 college football game",
+                "author": "Edward Sutelan",
+                "url": "https://www.sportingnews.com/us/ncaa-football/news/usc-notre-dame-score-updates-highlights/4e2506e9edb5f88b5cf5cb79",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-14T22:00:05+00:00",
+                "fact": "8:24 p.m.: Williams tries to connect with Rice on a deep shot after off-setting penalties reset the downs, but the two can't connect."
+            }
+        ]
+    },
+    {
+        "query": "Which country, discussed in articles from both Hacker News and Zee Business, banned Falun Gong following protests in its capital city in 1999 and is also experiencing growing economic headwinds in contrast to other emerging markets?",
+        "answer": "China",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+                "author": null,
+                "url": "https://www.nbcnews.com/news/us-news/epoch-times-falun-gong-growth-rcna111373",
+                "source": "Hacker News",
+                "category": "technology",
+                "published_at": "2023-10-16T03:41:24+00:00",
+                "fact": "In 1999, after thousands of Li\u2019s followers silently protested its repression in Beijing, China banned it altogether."
+            },
+            {
+                "title": "India to be one of world's fastest growing economies over next decade",
+                "author": "zee business",
+                "url": "https://www.zeebiz.com/economy-infra/news-india-to-be-one-of-worlds-fastest-growing-economies-over-next-decade-259584",
+                "source": "Zee Business",
+                "category": "business",
+                "published_at": "2023-10-14T12:17:33+00:00",
+                "fact": "There is divergence also among emerging markets and developing economies, with China facing growing headwinds, while Brazil, India."
+            }
+        ]
+    },
+    {
+        "query": "Does the article from The Verge suggest that Sam Bankman-Fried was aware of the financial discrepancies at FTX, while the TechCrunch article alleges that he knowingly committed fraud, or do both articles imply a level of awareness and intent by Sam Bankman-Fried regarding the financial issues at FTX?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Sam Bankman-Fried didn\u2019t ask where the $8 billion went",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/31/23940814/sam-bankman-fried-ftx-alameda-customer-funds-fraud-trial",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-31T19:52:07+00:00",
+                "fact": "It was not until Judge Lewis Kaplan intervened to ask if Bankman-Fried had ever been told by Yedidia about that money, in words or in substance, that Bankman-Fried admitted he\u2019d been told."
+            },
+            {
+                "title": "The jury finally hears from Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/27/23935683/sam-bankman-fried-ftx-fraud-direct-testimony-jury",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-28T00:12:41+00:00",
+                "fact": "Because FTX had grown so much, he could no longer run both companies, he said."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Between the report from The Roar | Sports Writers Blog on the All Blacks' performance published on October 18, 2023, and the report from The Roar | Sports Writers Blog on the All Blacks' mindset published on October 26, 2023, was there a change in the narrative regarding the team's focus and playing intentions?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Legacy vs ego: The Springboks are playing for South Africa, the All Blacks are playing for themselves",
+                "author": "Christy Doran",
+                "url": "https://www.theroar.com.au/2023/10/27/legacy-vs-ego-the-springboks-are-playing-for-south-africa-the-all-blacks-are-playing-for-themselves/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-10-26T22:19:21+00:00",
+                "fact": "It would seem that, as the Springboks play for their country, the All Blacks are playing for themselves as much as anyone \u2013 and the generation of players and leaders that will call time on their international careers at week\u2019s end."
+            },
+            {
+                "title": "THE GREATEST! Boks beat All Blacks in instant classic to claim record FOURTH RWC in controversial, dramatic final",
+                "author": "Christy Doran",
+                "url": "https://www.theroar.com.au/2023/10/29/the-greatest-boks-beat-all-blacks-in-instant-classic-to-claim-record-fourth-rwc-in-controversial-dramatic-final/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-10-28T21:06:03+00:00",
+                "fact": "The Springboks took a 12-3 lead after 34 minutes when the All Blacks once again failed to release on their goal line."
+            },
+            {
+                "title": "\u2018It happens\u2019: All Blacks defend star centre after spray as Cheika heaps pressure on \u2018favourites\u2019 New Zealand",
+                "author": "Christy Doran",
+                "url": "https://www.theroar.com.au/2023/10/19/it-happens-all-blacks-defend-star-centre-after-spray-as-cheika-heaps-pressure-on-favourites-new-zealand/",
+                "source": "The Roar | Sports Writers Blog",
+                "category": "sports",
+                "published_at": "2023-10-18T20:55:55+00:00",
+                "fact": "It comes despite Argentina knocking over the All Blacks last year in Christchurch, as well as a maiden defeat in 2020 in Sydney."
+            }
+        ]
+    }
+]
