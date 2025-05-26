@@ -1,42 +1,162 @@
 [
     {
-        "query": "Does the TechCrunch article on Meta's advertising practices involve the European Commission in a dissimilar capacity to how the European Commission is involved in Amazon's iRobot purchase and Elon Musk's X company's DSA probe, as reported by TechCrunch in both cases?",
+        "query": "Considering the information from an ABC News article discussing James Warburton's strategic business moves and a Reuters report on his financial management decisions, what is the first letter of the company that Warburton is currently leading as CEO?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Considering the information from an article in The New York Times detailing Houdini's most famous escape acts and a piece from The Guardian discussing Houdini's rivalry with spiritualists, which city, beginning with the letter 'B', is both the location of one of Houdini's most daring performances and the place where he had a notable public dispute with a prominent spiritualist?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Between the Sporting News report on the Minnesota Vikings' offensive performance published on November 13, 2023, and the Sporting News report on the Minnesota Vikings' performance against the Chicago Bears published on November 27, 2023, was there no change in the effectiveness of the Vikings' gameplay as reported by the same news source?",
         "answer": "no",
-        "question_type": "comparison_query",
+        "question_type": "temporal_query",
         "evidence_list": [
             {
-                "title": "European consumer groups band together to fight Meta\u2019s self-serving ad-free sub \u2014 branding it \u2018unfair\u2019 and \u2018illegal\u2019",
-                "author": "Natasha Lomas",
-                "url": "https://techcrunch.com/2023/11/29/beuc-cpc-meta-complaint/",
-                "source": "TechCrunch",
-                "category": "technology",
-                "published_at": "2023-11-30T05:00:57+00:00",
-                "fact": "The process also loops in the European Commission to help facilitate dialogue, assess issues and bring pressure to bear on unfair practices."
+                "title": "NFL power rankings: Lions, 49ers level up; Texans jump Bengals, Bills; Jets, Patriots sink to bottom for Week 11",
+                "author": "Vinnie Iyer",
+                "url": "https://www.sportingnews.com/us/nfl/news/nfl-power-rankings-lions-49ers-texans-jets-patriots/7b7ee6be935efc3c735d72ac",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-13T21:54:00+00:00",
+                "fact": "The new man on the Vikings, Josh Dobbs, keeps producing the same results they were enjoying offensively with Kirk Cousins, thanks to more help from the running game for Kevin O'Connell and the defense overall under Brian Flores."
             },
             {
-                "title": "Amazon\u2019s iRobot purchase sucks up formal competition concerns in EU",
-                "author": "Natasha Lomas",
-                "url": "https://techcrunch.com/2023/11/27/eu-amazon-irobot-statement-of-objections/",
-                "source": "TechCrunch",
-                "category": "technology",
-                "published_at": "2023-11-27T23:29:10+00:00",
-                "fact": "We continue to work through the process with the European Commission and are focused on addressing its questions and any identified concerns at this stage."
-            },
-            {
-                "title": "Elon Musk\u2019s X faces first DSA probe in EU over illegal content risks, moderation, transparency and deceptive UX design",
-                "author": "Natasha Lomas",
-                "url": "https://techcrunch.com/2023/12/18/x-dsa-probe/",
-                "source": "TechCrunch",
-                "category": "technology",
-                "published_at": "2023-12-18T13:04:56+00:00",
-                "fact": "Its earlier actions were focused on concerns about the spread of illegal content and disinformation related to the Israel-Hamas war."
+                "title": "Bears vs. Vikings live score, updates, highlights from NFL 'Monday Night Football' game",
+                "author": "Dan Treacy",
+                "url": "https://www.sportingnews.com/us/nfl/news/bears-vikings-live-score-highlights-monday-night-football/9e0ddaf702f99e7aec9645db",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-27T23:32:04+00:00",
+                "fact": "The Bears' defense is all over the Vikings tonight, and Minnesota can't get out of its own way."
             }
         ]
     },
     {
-        "query": "Who is the individual associated with using FTX customer funds to purchase a stake in Binance and is also facing allegations of fraud for personal gain, as reported by The Verge and TechCrunch?",
-        "answer": "Sam Bankman-Fried",
+        "query": "Considering the economic analysis from Bloomberg and the recent health initiatives reported by The Guardian, which minister, responsible for both finance and health portfolios in Harare, has been recognized for their dual efforts in budget reform and combating the spread of malaria?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Between the Polygon report on the updates to the Steam Deck hardware published before November 16, 2023, and the Engadget review of the Steam Deck OLED, was the reporting on Valve's improvements to the Steam Deck hardware consistent?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "The Steam Deck OLED arrives November 16 with an improved screen and longer battery life",
+                "author": "Jessica Conditt,Aaron Souppouris",
+                "url": "https://www.engadget.com/the-steam-deck-oled-arrives-november-16-with-an-improved-screen-and-longer-battery-life-180032945.html?src=rss",
+                "source": "Engadget",
+                "category": "technology",
+                "published_at": "2023-11-09T18:00:32+00:00",
+                "fact": "For now, Griffais explained, it's important to Valve that developers don't need to \"split their attention\" between different performance targets."
+            },
+            {
+                "title": "The Steam Deck OLED improves much more than its screen",
+                "author": "Chris Plante",
+                "url": "https://www.polygon.com/reviews/23950861/steam-deck-oled-review-valve-handheld-gaming",
+                "source": "Polygon",
+                "category": "entertainment",
+                "published_at": "2023-11-09T18:00:00+00:00",
+                "fact": "Since the original Steam Deck launched, Valve has been improving the hardware through updates \u2014 its team estimates around 300 to date."
+            },
+            {
+                "title": "Steam Deck OLED review: It's just better",
+                "author": "Jessica Conditt",
+                "url": "https://www.engadget.com/steam-deck-oled-review-its-just-better-180038030.html?src=rss",
+                "source": "Engadget",
+                "category": "technology",
+                "published_at": "2023-11-09T18:00:38+00:00",
+                "fact": "The Steam Deck OLED will go on sale on November 16th at 1pm ET, and Valve has units ready to ship that same day."
+            }
+        ]
+    },
+    {
+        "query": "Considering Jeh Johnson's statements on cybersecurity in an article from The New York Times and his views on immigration reform discussed in a piece by The Washington Post, which government department did he lead that is central to both issues?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "What is the term for entities that, according to Sporting News, not only profit from betting outcomes regardless of the winner but also modify NBA Rookie of the Year odds by analyzing collected data?",
+        "answer": "Sportsbooks",
         "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Line Shopping in Sports Betting - How to Find the Best Odds",
+                "author": "Martin Derbyshire",
+                "url": "https://www.sportingnews.com/us/betting/news/line-shopping/0f917db9336b2772ba044571",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-06T22:21:05+00:00",
+                "fact": "That allows sportsbooks to earn the profit built into the odds and lines without worrying about which side wins."
+            },
+            {
+                "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/nba-roty-odds/7af3a635d324b28ff4c554fd",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-04T22:54:23+00:00",
+                "fact": "But sportsbooks are also gathering this information, and they begin to tighten the NBA Rookie of the Year lines in response."
+            }
+        ]
+    },
+    {
+        "query": "Considering the features discussed in a recent article from The Verge about the latest Windows Insider build and the security updates mentioned in a separate article from PCWorld for the same build, which letter represents the drive that Microsoft traditionally assigns to the system partition by default?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Which company, according to TechCrunch articles, invested $26.3 billion in 2021 to maintain its status as the primary search engine on multiple devices and is also accused of harming news publishers' revenue and content through anticompetitive practices?",
+        "answer": "Google",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+                "author": "Rebecca Bellan",
+                "url": "https://techcrunch.com/2023/11/13/more-from-the-us-v-google-trial-vertical-search-pre-installs-and-the-case-of-firefox-yahoo/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-13T14:37:44+00:00",
+                "fact": "In our last roundup, we learned how Google spent $26.3 billion in 2021 making itself the default search engine across platforms and how Google tried to have Chrome preinstalled on iPhones."
+            },
+            {
+                "title": "5 things we learned so far about the Google antitrust case",
+                "author": "Rebecca Bellan",
+                "url": "https://techcrunch.com/2023/10/30/5-things-we-learned-so-far-about-the-google-antitrust-case/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-31T02:30:32+00:00",
+                "fact": "When Google\u2019s search head Prabhakar Raghavan testified in court on October 28, he revealed that the tech giant had paid $26.3 billion in 2021 to multiple browsers, phones and platforms, from companies including Apple, Samsung and Mozilla, The Verge reports."
+            },
+            {
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a BBC News article discussing Volodymyr Zelenskyy's diplomatic efforts in Europe and a CNN report on his administration's domestic policies, which letter of the alphabet does the first name of the European leader Zelenskyy met with in the BBC article start with, who also expressed concerns about domestic reforms mentioned in the CNN report?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Between the TechCrunch report on Sam Bankman-Fried's intentions published on October 2, 2023, and the TechCrunch report on allegations against Sam Bankman-Fried published on October 7, 2023, was there a change in the portrayal of Sam Bankman-Fried's use of wealth and influence?\n\nBetween the TechCrunch report on allegations against Sam Bankman-Fried published on October 7, 2023, and The Verge report on Sam Bankman-Fried's financial decisions published on October 10, 2023, was the consistency in reporting Sam Bankman-Fried's financial conduct maintained?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
         "evidence_list": [
             {
                 "title": "Sam Bankman-Fried was a terrible boyfriend",
@@ -48,6 +168,15 @@
                 "fact": "It was Bankman-Fried\u2019s decision, she said, as he was the CEO of FTX."
             },
             {
+                "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+                "author": "Ingrid Lunden",
+                "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-02T13:11:07+00:00",
+                "fact": "He was the richest person in the world under 30 [and] he was going to spend it to save humanity from extinction,\u201d he said."
+            },
+            {
                 "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
                 "author": "Kyle Wiggers",
                 "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
@@ -59,147 +188,281 @@
         ]
     },
     {
-        "query": "Who is the individual that was once likened to a prominent investor, admitted to challenges in overseeing a rapidly expanding crypto company, faced allegations of fraud in a legal setting, and discussed corporate governance intentions with a venture firm, as reported by TechCrunch, The Verge, Cnbc, and TechCrunch respectively?",
-        "answer": "Sam Bankman-Fried",
+        "query": "What company is at the center of antitrust discussions due to its default search engine deals with various tech companies, impact on the internet's appearance, potential legal outcomes regarding phones and app stores, and allegations of harming news publishers' revenue as reported by The Verge and TechCrunch?",
+        "answer": "Google",
         "question_type": "inference_query",
         "evidence_list": [
             {
-                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
-                "author": "Jacquelyn Melinek",
-                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
-                "source": "TechCrunch",
-                "category": "technology",
-                "published_at": "2023-10-01T14:00:29+00:00",
-                "fact": "Bankman-Fried was even compared to Warren Buffet and many called him the white horse of crypto (TechCrunch never did, for what it\u2019s worth)."
-            },
-            {
-                "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
-                "author": null,
-                "url": "https://www.cnbc.com/2023/10/06/sex-signal-messages-and-sabotaging-ftxs-code-sbf-criminal-trial.html",
-                "source": "Cnbc | World Business News Leader",
-                "category": "business",
-                "published_at": "2023-10-06T20:17:00+00:00",
-                "fact": "During cross-examination, Huang said Paradigm pressed Bankman-Fried on the board issue and was told he didn't want investors as directors but he did plan on having a board with experts."
-            },
-            {
-                "title": "The jury finally hears from Sam Bankman-Fried",
-                "author": "Elizabeth Lopatto",
-                "url": "https://www.theverge.com/2023/10/27/23935683/sam-bankman-fried-ftx-fraud-direct-testimony-jury",
+                "title": "Apple defends Google Search deal in court: \u2018There wasn\u2019t a valid alternative\u2019",
+                "author": "David Pierce",
+                "url": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
                 "source": "The Verge",
                 "category": "technology",
-                "published_at": "2023-10-28T00:12:41+00:00",
-                "fact": "Because FTX had grown so much, he could no longer run both companies, he said."
+                "published_at": "2023-09-26T17:01:22+00:00",
+                "fact": "The Justice Department is focused on the deals Google makes \u2014 with Apple but also with Samsung and Mozilla and many others \u2014 to ensure it is the default search engine on practically every platform."
             },
             {
-                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
-                "author": "Kyle Wiggers",
-                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "title": "The people who ruined the internet",
+                "author": "Amanda Chicago Lewis",
+                "url": "https://www.theverge.com/features/23931789/seo-search-engine-optimization-experts-google-results",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-11-01T13:00:00+00:00",
+                "fact": "The company did accomplish that goal, but in doing so, it inadvertently and profoundly changed how the internet looked."
+            },
+            {
+                "title": "Epic v. Google, explained",
+                "author": "Sean Hollister",
+                "url": "https://www.theverge.com/23944251/epic-google-antitrust-trial-explainer-monopoly",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-11-05T11:00:00+00:00",
+                "fact": "This whole line of argument is called \u201cmarket definition.\u201d If the court decides the relevant market is phones and app stores, not specifically Android ones, then Google\u2019s on the road to victory."
+            },
+            {
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
                 "source": "TechCrunch",
                 "category": "technology",
-                "published_at": "2023-10-07T20:15:26+00:00",
-                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
             }
         ]
     },
     {
-        "query": "Who, according to articles in Sporting News, stand to make a profit by predicting outcomes such as a team's lead at the end of a quarter or the total points scored, and can also capitalize on event hype, like putting $130 on the Cowboys to potentially gain $100?",
-        "answer": "Bettors",
+        "query": "Does 'The Age' article stating that Richelle Cranston has battled stage five chronic kidney disease while playing this season align with the same newspaper's claim about her playing history across three AFLW clubs, or do these claims highlight different aspects of her career?",
+        "answer": "Different aspects",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Ground-breaking Gold Coast: Suns make AFLW finals for a second time",
+                "author": "Joanna Guelas",
+                "url": "https://www.theage.com.au/sport/afl/ground-breaking-gold-coast-suns-make-aflw-finals-for-a-second-time-20231103-p5ehk0.html?ref=rss&utm_medium=rss&utm_source=rss_sport",
+                "source": "The Age",
+                "category": "sports",
+                "published_at": "2023-11-03T23:45:04+00:00",
+                "fact": "\u201cBut nah, it was awesome.\u201d On Saturday, the competition also said goodbye to a range of players including Western Bulldogs forward Richelle Cranston, who has battled stage five chronic kidney disease while playing this season, and Hawthorn\u2019s Akec Makur Chuot, who played 40 games for three clubs."
+            },
+            {
+                "title": "Comeback kings Richmond take the AFLW points in Cairns",
+                "author": "",
+                "url": "https://www.theage.com.au/sport/afl/aflw-round-eight-tigers-beat-hawks-to-stay-in-finals-race-20231021-p5edz4.html?ref=rss&utm_medium=rss&utm_source=rss_sport",
+                "source": "The Age",
+                "category": "sports",
+                "published_at": "2023-10-20T23:51:34+00:00",
+                "fact": "The Dogs are Cranston\u2019s third club after starting at Melbourne and having a stint with Geelong before heading to the Bulldogs last year."
+            }
+        ]
+    },
+    {
+        "query": "What company is at the center of concerns regarding both potential foul play in search practices reported by The Age and the anticompetitive siphoning of content, readers, and ad revenue from news publishers as discussed by TechCrunch?",
+        "answer": "Google",
         "question_type": "inference_query",
         "evidence_list": [
             {
-                "title": "Moneyline Betting - What is the Moneyline and How Does it Work?",
-                "author": "Sam Eggleston",
-                "url": "https://www.sportingnews.com/us/betting/news/moneyline-betting/d3a60119341b3da02f1fb1ae",
-                "source": "Sporting News",
-                "category": "sports",
-                "published_at": "2023-11-01T21:25:48+00:00",
-                "fact": "If you bet $130 on the Cowboys and they win, you would earn a profit of $100."
+                "title": "Is Google Search better than the rest? And is that fair?",
+                "author": "Tim Biggs",
+                "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+                "source": "The Age",
+                "category": "technology",
+                "published_at": "2023-10-22T18:00:00+00:00",
+                "fact": "Wired removed the article for not meeting its standards, but the degree to which it was shared on social media and boosted in write-ups at other outlets shows just how willing people are to accept foul play on Google\u2019s part."
             },
             {
-                "title": "Prop Betting - What is a Prop Bet?",
-                "author": "Martin Derbyshire",
-                "url": "https://www.sportingnews.com/us/betting/news/prop-betting/eca08189bf4e5c58e02bfeda",
-                "source": "Sporting News",
-                "category": "sports",
-                "published_at": "2023-11-06T21:23:22+00:00",
-                "fact": "You can also bet on team props, such as whether a team will lead at the end of a certain quarter or an over/under bet on the total number of points the team will score in the game."
-            },
-            {
-                "title": "FanDuel 'Prop Stars' Picks: Best bets for Travis Kelce & Taylor Swift-inspired props for Chiefs-Jets Week 4",
-                "author": "Nick Brinkerhoff",
-                "url": "https://www.sportingnews.com/us/nfl/news/best-chiefs-jets-prop-stars-bets-fanduel-kelce-swift-snf/581275901fe0e3011cdcb562",
-                "source": "Sporting News",
-                "category": "sports",
-                "published_at": "2023-09-28T21:41:00+00:00",
-                "fact": "For bettors, where there is hype, there's also an opportunity to make some money."
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
             }
         ]
     },
     {
-        "query": "Does the Cnbc | World Business News Leader article suggest that Sam Bankman-Fried had a different approach to the composition of FTX's board compared to the TechCrunch articles' portrayal of his actions regarding the misuse of customer funds and committing fraud for personal gain?",
+        "query": "Which public figure, who was recognized by 'The Independent - Life and Style' as Time's Person of the Year and is known for her ability to keep major events private as noted by 'BBC News - Entertainment & Arts', has been the subject of rumors involving a friendship bracelet mentioned in articles from both 'The Age' and 'CBSSports.com'?",
+        "answer": "Taylor Swift",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "When pop culture and sport collide: A timeline of Taylor Swift\u2019s NFL takeover",
+                "author": "Nell Geraets",
+                "url": "https://www.theage.com.au/culture/music/when-pop-culture-and-sport-collide-a-timeline-of-taylor-swift-s-nfl-takeover-20230926-p5e7lu.html?ref=rss&utm_medium=rss&utm_source=rss_culture",
+                "source": "The Age",
+                "category": "entertainment",
+                "published_at": "2023-09-26T05:26:05+00:00",
+                "fact": "In July, speaking on the podcast he shares with his brother, New Heights, Kelce said he intended to give Swift a friendship bracelet with his number on it during her Eras Tour concert in Kansas City."
+            },
+            {
+                "title": "Taylor Swift-Travis Kelce timeline: Everything to know about rumored romance between pop star, Chiefs TE",
+                "author": "Shanna McCarriston",
+                "url": "https://www.cbssports.com/nfl/news/taylor-swift-travis-kelce-timeline-everything-to-know-about-rumored-romance-between-pop-star-chiefs-te/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-12T23:21:52+00:00",
+                "fact": "He revealed that he made a friendship bracelet, a fan tradition at her concerts, with his number on it to give to her, seemingly expressing his interest in Swift."
+            },
+            {
+                "title": "Taylor Swift's 1989: The stories behind her biggest album",
+                "author": null,
+                "url": "https://www.bbc.co.uk/news/entertainment-arts-66910595?at_medium=RSS&at_campaign=KARANGA",
+                "source": "BBC News - Entertainment & Arts",
+                "category": "entertainment",
+                "published_at": "2023-10-13T23:00:08+00:00",
+                "fact": "\"It was almost like this very strange, subtle clue to the media that they don't know everything that happened in that relationship, and I can have something really major and traumatic happen to me and they don't know about it,\" she told NPR."
+            },
+            {
+                "title": "Taylor Swift is Time\u2019s Person of the Year",
+                "author": "Chelsea Ritschel",
+                "url": "https://www.independent.co.uk/life-style/taylor-swift-time-person-of-the-year-b2459419.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-12-06T13:55:17+00:00",
+                "fact": "Now, Swift has shared that she has nothing to hide in her new relationship with Kelce."
+            }
+        ]
+    },
+    {
+        "query": "Does the 'Sporting News' article identify Scott McTominay as Manchester United's top scorer for the season, while the 'TalkSport' article suggests Erling Haaland has the chance to become the overall top scorer in 2023, indicating a difference in the scope of their scoring achievements?",
         "answer": "Yes",
         "question_type": "comparison_query",
         "evidence_list": [
             {
-                "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
-                "author": null,
-                "url": "https://www.cnbc.com/2023/10/06/sex-signal-messages-and-sabotaging-ftxs-code-sbf-criminal-trial.html",
-                "source": "Cnbc | World Business News Leader",
-                "category": "business",
-                "published_at": "2023-10-06T20:17:00+00:00",
-                "fact": "During cross-examination, Huang said Paradigm pressed Bankman-Fried on the board issue and was told he didn't want investors as directors but he did plan on having a board with experts."
+                "title": "Man United vs Chelsea final score, result and highlights as Scott McTominay brace gives Ten Hag vital win",
+                "author": "Brad Cox",
+                "url": "https://www.sportingnews.com/us/soccer/news/man-united-vs-chelsea-live-score-result-premier-league/3fbd625c62445c98c3f5a559",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-06T23:27:00+00:00",
+                "fact": "McTominay is now United's top scorer for the season with six goals, one ahead of Bruno Fernandes and Rasmus Hojlund."
             },
             {
-                "title": "SBF Trial: The latest updates from the FTX collapse\u2019s courtroom drama",
-                "author": "Morgan Little",
-                "url": "https://techcrunch.com/2023/10/06/sbf-trial-the-latest-updates-from-the-ftx-collapses-courtroom-drama/",
-                "source": "TechCrunch",
-                "category": "technology",
-                "published_at": "2023-10-06T17:22:02+00:00",
-                "fact": "The second week of the trial\u2019s standout testimony came from Alameda Research\u2019s former CEO Caroline Ellison, who claimed she took $14 billion from customers to repay debts to lenders, using them as a line of credit under the instruction of SBF."
-            },
-            {
-                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
-                "author": "Kyle Wiggers",
-                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
-                "source": "TechCrunch",
-                "category": "technology",
-                "published_at": "2023-10-07T20:15:26+00:00",
-                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+                "title": "Top goalscorers of 2023: Cristiano Ronaldo brings up 50 goals with Erling Haaland and Harry Kane also high on list",
+                "author": "Jake Lambourne",
+                "url": "https://talksport.com/football/1674719/top-goalscorers-2023-ronaldo-haaland-kane/",
+                "source": "TalkSport",
+                "category": "sports",
+                "published_at": "2023-12-12T22:36:24+00:00",
+                "fact": "With two games left for City in 2023, Haaland has time to be the overall top scorer, though it remains to be seen if Pep Guardiola will play him against Everton and Sheffield United."
             }
         ]
     },
     {
-        "query": "Between the report by Business Today | Latest Stock Market And Economy News India on an event involving Israel published on October 7, 2023, and the reports by Fortune on the situation in Gaza involving Israel published on October 13, 2023, was there a change in the status of Israel's actions regarding Gaza?",
-        "answer": "Yes",
-        "question_type": "temporal_query",
+        "query": "Does the TechCrunch article claim that Google's payments to secure default search engine status are unrelated to its anticompetitive behavior, while The Verge article focuses on the lack of a valid alternative to Google's search engine services, and another TechCrunch article alleges that Google's anticompetitive actions extend to harming news publishers' bottom lines?",
+        "answer": "no",
+        "question_type": "comparison_query",
         "evidence_list": [
             {
-                "title": "Israel's blockade of Gaza means that a region the size of Philadelphia faces a real risk of starvation, says Peace Studies scholar",
-                "author": "Topher L. McDougal, The Conversation",
-                "url": "https://fortune.com/2023/10/13/israel-blockade-gaza-hamas-war-starvation-food-insecurity/",
-                "source": "Fortune",
-                "category": "business",
-                "published_at": "2023-10-13T19:50:48+00:00",
-                "fact": "Israel stopped allowing deliveries of food, fuel and other supplies to Gaza\u2019s 2.3 million residents on Oct. 10, 2023, and is reportedly preparing for a ground invasion."
+                "title": "5 things we learned so far about the Google antitrust case",
+                "author": "Rebecca Bellan",
+                "url": "https://techcrunch.com/2023/10/30/5-things-we-learned-so-far-about-the-google-antitrust-case/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-31T02:30:32+00:00",
+                "fact": "When Google\u2019s search head Prabhakar Raghavan testified in court on October 28, he revealed that the tech giant had paid $26.3 billion in 2021 to multiple browsers, phones and platforms, from companies including Apple, Samsung and Mozilla, The Verge reports."
             },
             {
-                "title": "Israel's blockade of Gaza means that a region the size of Philadelphia faces a real risk of starvation, says Peace Studies scholar",
-                "author": "Topher L. McDougal, The Conversation",
-                "url": "https://fortune.com/2023/10/13/israel-blockade-gaza-hamas-war-starvation-food-insecurity/",
-                "source": "Fortune",
-                "category": "business",
-                "published_at": "2023-10-13T19:50:48+00:00",
-                "fact": "While Israel has granted permits to about 17,000 Gaza residents to enter and work in Israel, the food, fuel and medical supplies that people in Gaza use all first pass through Israel."
+                "title": "Apple defends Google Search deal in court: \u2018There wasn\u2019t a valid alternative\u2019",
+                "author": "David Pierce",
+                "url": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-09-26T17:01:22+00:00",
+                "fact": "\u201cCertainly there wasn\u2019t a valid alternative to Google at the time,\u201d Cue said."
             },
             {
-                "title": "&#039;Massive intel failure by Mossad&#039;: Hamas&#039; surprise attack on Israel shocks internet",
-                "author": null,
-                "url": "https://www.businesstoday.in/latest/world/story/massive-intel-failure-by-mossad-hamas-surprise-attack-on-israel-shocks-internet-401106-2023-10-07?utm_source=rssfeed",
-                "source": "Business Today | Latest Stock Market And Economy News India",
-                "category": "business",
-                "published_at": "2023-10-07T15:37:43+00:00",
-                "fact": "Another user said that no one can carry out such a major attack against Israel without intelligence support."
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
+            }
+        ]
+    },
+    {
+        "query": "Which company, recently reviewed by TechCrunch for its responsive approach to consumer feedback through its product design, also justifies its choice of Google for user privacy reasons according to The Verge, and is mentioned by the same source for enforcing uniform terms on developers, OEMs, and carriers through its store and payment system?",
+        "answer": "Apple",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Apple defends Google Search deal in court: \u2018There wasn\u2019t a valid alternative\u2019",
+                "author": "David Pierce",
+                "url": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-09-26T17:01:22+00:00",
+                "fact": "Cue had two messages: Apple believes in protecting its users\u2019 privacy, and it also believes in Google."
+            },
+            {
+                "title": "Apple 16-inch M3 Max MacBook Pro review: A desktop among laptops",
+                "author": "Brian Heater",
+                "url": "https://techcrunch.com/2023/11/06/apple-macbook-pro-review-m3-max/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-06T14:00:15+00:00",
+                "fact": "Along with building new chips, Apple has spent the last few years listening to consumers in a way it hadn\u2019t for decades."
+            },
+            {
+                "title": "Tim Sweeney on Epic\u2019s victory royale over Google",
+                "author": "Sean Hollister",
+                "url": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-12-12T19:17:14+00:00",
+                "fact": "They use their store, their payments, they force developers to all have the same terms, they force OEMs and carriers to all have the same terms."
+            }
+        ]
+    },
+    {
+        "query": "Did the TechCrunch article fail to report a workforce reduction at Epic Games, while The Verge article discusses Epic Games' portrayal in a legal battle, without mentioning any layoffs?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "A comprehensive list of 2023 tech layoffs",
+                "author": "Alyssa Stringer",
+                "url": "https://techcrunch.com/2023/09/28/tech-layoffs-2023-list/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-09-28T20:04:20+00:00",
+                "fact": "Announced on September 28 that the Fortnite maker is laying off 16% of its workforce, amounting to 870 people."
+            },
+            {
+                "title": "The Epic v. Google trial may come down to simple v. complicated",
+                "author": "Sean Hollister",
+                "url": "https://www.theverge.com/2023/11/7/23949849/epic-google-trial-day-one-recap-summary",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-11-07T15:00:40+00:00",
+                "fact": "Because while Google spent most of its first day attempting to explain complicated ins and outs of business, Epic was able to paint a black-and-white picture of good and evil with itself as the clear underdog."
+            }
+        ]
+    },
+    {
+        "query": "Does the Sporting News article suggest that the Oregon football team is still in contention for the College Football Playoff following a specific game outcome, in contrast to the CBSSports.com article which discusses the LSU football team's status after losing two games?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Can Alabama make College Football Playoff? How Texas, Oregon losses could impact Tide's 2023 chances",
+                "author": "Bill Bender",
+                "url": "https://www.sportingnews.com/us/ncaa-football/news/alabama-college-football-playoff-texas-oregon-losses/02ba9161c845ab8490f4813a",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-01T22:23:03+00:00",
+                "fact": "Washington beat Oregon in the Pac-12 championship on Friday, and that knocks the Ducks into the two-loss pileup and out of the CFP picture."
+            },
+            {
+                "title": "College football odds, lines, schedule for Week 6: Texas, Alabama, Notre Dame among favorites in ranked games",
+                "author": "Dean Straka",
+                "url": "https://www.cbssports.com/college-football/news/college-football-odds-lines-schedule-for-week-6-texas-alabama-notre-dame-among-favorites-in-ranked-games/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-01T22:41:50+00:00",
+                "fact": "23 LSU, which has now lost two games already after opening the year as a playoff contender."
             }
         ]
     }

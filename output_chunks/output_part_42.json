@@ -1,0 +1,461 @@
+[
+    {
+        "query": "Who is the individual whose trial is scrutinized by a jury, as reported by Fortune, was previously compared to Warren Buffet by some, but not by TechCrunch, and is facing allegations by the prosecution of committing fraud for personal gain, according to multiple reports from TechCrunch?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "That answer ultimately lies with the jury, which was selected on Wednesday morning before lawyers for the government and then Bankman-Fried swapped two very different stories of the former crypto mogul\u2019s sudden rise and almost instantaneous fall."
+            },
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "Bankman-Fried was even compared to Warren Buffet and many called him the white horse of crypto (TechCrunch never did, for what it\u2019s worth)."
+            },
+            {
+                "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+                "author": "Ingrid Lunden",
+                "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-02T13:11:07+00:00",
+                "fact": "SBF, as he\u2019s known, has pleaded not-guilty to some seven charges of fraud and conspiracy."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Has the status of Richelle Cranston's AFLW career as reported by 'The Age' remained the same between the article published on 2023-10-20 and the one on 2023-11-03?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Comeback kings Richmond take the AFLW points in Cairns",
+                "author": "",
+                "url": "https://www.theage.com.au/sport/afl/aflw-round-eight-tigers-beat-hawks-to-stay-in-finals-race-20231021-p5edz4.html?ref=rss&utm_medium=rss&utm_source=rss_sport",
+                "source": "The Age",
+                "category": "sports",
+                "published_at": "2023-10-20T23:51:34+00:00",
+                "fact": "The Dogs are Cranston\u2019s third club after starting at Melbourne and having a stint with Geelong before heading to the Bulldogs last year."
+            },
+            {
+                "title": "Ground-breaking Gold Coast: Suns make AFLW finals for a second time",
+                "author": "Joanna Guelas",
+                "url": "https://www.theage.com.au/sport/afl/ground-breaking-gold-coast-suns-make-aflw-finals-for-a-second-time-20231103-p5ehk0.html?ref=rss&utm_medium=rss&utm_source=rss_sport",
+                "source": "The Age",
+                "category": "sports",
+                "published_at": "2023-11-03T23:45:04+00:00",
+                "fact": "Richelle Cranston of the Bulldogs is chaired off the ground by teammates Isabelle Pritchard and Ellie Blackburn after announcing her retirement."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from an article in The Economic Times and another in YourStory about Blume Ventures, which company, having received Series A funding led by Blume Ventures as per The Economic Times, also launched a new product line that was highlighted in YourStory in the same year?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Based on a report from The Wall Street Journal about Apple's financial performance and a separate article from Bloomberg discussing Apple's latest product launch, which letter represents the start of the name of the executive who is overseeing the product mentioned in Bloomberg and was also highlighted for their strategic financial decisions in The Wall Street Journal article?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "What company, covered by TechCrunch, has both invested $26.3 billion to maintain its default search engine status across devices and platforms, and is simultaneously facing scrutiny for its generative AI's architecture and alleged anticompetitive practices affecting news publishers' revenues?",
+        "answer": "Google",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Early impressions of Google\u2019s Gemini aren\u2019t great",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/12/07/early-impressions-of-googles-gemini-arent-great/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-07T16:12:30+00:00",
+                "fact": "In blog posts and press materials, Google touted Gemini\u2019s superior architecture and capabilities, claiming that the model meets or exceeds the performance of other leading gen AI models like OpenAI\u2019s GPT-4."
+            },
+            {
+                "title": "5 things we learned so far about the Google antitrust case",
+                "author": "Rebecca Bellan",
+                "url": "https://techcrunch.com/2023/10/30/5-things-we-learned-so-far-about-the-google-antitrust-case/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-31T02:30:32+00:00",
+                "fact": "When Google\u2019s search head Prabhakar Raghavan testified in court on October 28, he revealed that the tech giant had paid $26.3 billion in 2021 to multiple browsers, phones and platforms, from companies including Apple, Samsung and Mozilla, The Verge reports."
+            },
+            {
+                "title": "News publisher files class action antitrust suit against Google, citing AI\u2019s harms to their bottom line",
+                "author": "Sarah Perez",
+                "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-15T17:56:02+00:00",
+                "fact": "The case, filed by Arkansas-based publisher Helena World Chronicle, argues that Google \u201csiphons off\u201d news publishers\u2019 content, their readers and ad revenue through anticompetitive means."
+            }
+        ]
+    },
+    {
+        "query": "Did TechCrunch report on DeepMind's expected release of a next-generation chatbot named Gemini before TechCrunch reported that Google released only a \"lite\" version of the Gemini model known as Gemini Pro?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "One year later, ChatGPT is still alive and kicking",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/11/30/one-year-later-chatgpt-is-still-alive-and-kicking/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-30T14:10:43+00:00",
+                "fact": "DeepMind, Google\u2019s premier AI research lab, is expected to debut a next-gen chatbot, Gemini, before the end of the year."
+            },
+            {
+                "title": "Google fakes an AI demo, Grand Theft Auto VI goes viral and Spotify cuts jobs",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/12/09/google-fakes-an-ai-demo-grand-theft-auto-vi-goes-viral-and-spotify-cuts-jobs/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-12-09T21:16:17+00:00",
+                "fact": "But it didn\u2019t release the full model, Gemini Ultra \u2014 only a \u201clite\u201d version called Gemini Pro."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a BBC News article and a Reuters report on the Global Fund, which country, identified as a major recipient of malaria aid in the BBC article, also announced a significant increase in its financial contribution to the Global Fund according to Reuters?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Considering the information from an article by The Times of India and another by The Hindustan Times on Jaya Bachchan, which character from a film discussed in both articles is portrayed by an actor who has also served as a member of the Rajya Sabha?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does the Sporting News article suggest that a single victory for Michigan's football team could have a similar impact on their season as the loss to the Browns had on the Chicago Bears' playoff hopes, with both teams facing important upcoming games?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Michigan sign-stealing scandal winners and losers, from Jim Harbaugh to Tony Petitti",
+                "author": "Bill Bender",
+                "url": "https://www.sportingnews.com/us/ncaa-football/news/michigan-scandal-winners-losers-jim-harbaugh-tony-petitti/52ad1c9ec667b556323fa41c",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-11T22:50:13+00:00",
+                "fact": "One loss, and all this could unravel, and the Terps and Buckeyes still remain on the schedule."
+            },
+            {
+                "title": "Browns survive Bears Hail Mary on wild, near-catch by Darnell Mooney: 'Damn near s\u2014 myself'",
+                "author": "Edward Sutelan",
+                "url": "https://www.sportingnews.com/us/nfl/news/bears-hail-mary-darnell-mooney-browns/ee147cccbf7ad4ae91ce0ea1",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-12-17T23:06:30+00:00",
+                "fact": "The loss was also particularly crushing for a team that had won back-to-back games, with a pair of wild-card contenders in the Vikings and Packers losing this weekend."
+            }
+        ]
+    },
+    {
+        "query": "Considering the allegations in the unredacted lawsuit obtained by the attorneys general of 42 states and the reported experiences of Palestinians, what company is implied to have both potentially violated the Children\u2019s Online Privacy Protection Act and is accused of having a moderation bias that suppresses certain voices, according to articles from TechCrunch?",
+        "answer": "Meta",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Meta turned a blind eye to kids on its platforms for years, unredacted lawsuit alleges",
+                "author": "Devin Coldewey",
+                "url": "https://techcrunch.com/2023/11/27/meta-turned-a-blind-eye-to-kids-on-its-platforms-for-years-unredacted-lawsuit-alleges/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-27T21:20:32+00:00",
+                "fact": "In one respect at least, however, the documentation obtained by the attorneys general of 42 states is quite specific, \u201cand it is damning,\u201d as AG Rob Bonta of California put it."
+            },
+            {
+                "title": "Meta has a moderation bias problem, not just a \u2018bug,\u2019 that\u2019s suppressing Palestinian voices",
+                "author": "Morgan Sung",
+                "url": "https://techcrunch.com/2023/10/19/meta-instagram-palestine-israel-shadowban-censorship-moderation-bias/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-19T23:43:15+00:00",
+                "fact": "Al Saadi said that her frustration with Meta is common among Palestinians, both in occupied territories and across the diaspora."
+            }
+        ]
+    },
+    {
+        "query": "Does the FOX News - Health article attribute the positive impact on well-being and hope to the Caring Contacts program at a Nebraska children's hospital, while The Independent - Life and Style article credits Will Smith's personal happiness to his relationship with Jada Pinkett Smith?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Suicide prevention program at Nebraska children's hospital emphasizes encouraging, 'life-saving' notes",
+                "author": null,
+                "url": "https://www.foxnews.com/health/suicide-prevention-program-nebraska-childrens-hospital-encouraging-life-saving-notes",
+                "source": "FOX News - Health",
+                "category": "health",
+                "published_at": "2023-10-18T09:30:30+00:00",
+                "fact": "\"The letters I\u2019ve received in return are really telling about the impact the program has on their well-being and hope for the future,\" she told Fox News Digital."
+            },
+            {
+                "title": "Will Smith speaks to crowd about \u2018tumultuous\u2019 relationship with Jada Pinkett Smith",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/will-smith-jada-pinket-marriage-b2432586.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-19T16:16:20+00:00",
+                "fact": "He went on to explain that he\u2019s \u201chappier than [he\u2019s] ever been in [his] entire life\u201d and praised Jada for continuing to be by his side."
+            }
+        ]
+    },
+    {
+        "query": "After TechCrunch reported on Daye's tampon-based STI screening for GBS testing in pregnant women on November 6, 2023, and Live Science: The Most Interesting Articles highlighted the risks of cannabis use during pregnancy on December 13, 2023, does the advice from both sources regarding the importance of maternal health interventions during pregnancy remain consistent or inconsistent?",
+        "answer": "Consistent",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Daye now offers tampon-based STI screening \u2014 starting in the UK",
+                "author": "Natasha Lomas",
+                "url": "https://techcrunch.com/2023/11/06/daye-sti-testing/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-06T09:30:53+00:00",
+                "fact": "Testing pregnant women for GBS allows for the timely administration of antibiotics during labour, significantly reducing the risk of neonatal infections,\u201d Daye tells us."
+            },
+            {
+                "title": "Cannabis use in pregnancy linked to small birth size, other poor outcomes",
+                "author": null,
+                "url": "https://www.livescience.com/health/fertility-pregnancy-birth/cannabis-use-in-pregnancy-linked-to-small-birth-size-other-poor-outcomes",
+                "source": "Live Science: The Most Interesting Articles",
+                "category": "science",
+                "published_at": "2023-12-13T17:21:53+00:00",
+                "fact": "But it does suggest that \"cannabis use should be avoided during pregnancy to optimize maternal and neonatal [newborn] outcomes,\" the study authors wrote in the report."
+            }
+        ]
+    },
+    {
+        "query": "Between the Sporting News report on NBA Rookie of the Year odds published on October 4, 2023, and the Sporting News report on line shopping in sports betting published on November 6, 2023, was there a change in how Sportsbooks adjust and tighten betting lines based on gathered information?",
+        "answer": "No",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "MLB Betting Sites & Apps - The Best Baseball Sportsbooks 2023",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/mlb-betting-sites/90537abdc639ffc5d57a8c1b",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-24T22:32:27+00:00",
+                "fact": "These delays may lead to bets being refunded depending on the circumstances and the specific rules of your sportsbook."
+            },
+            {
+                "title": "Line Shopping in Sports Betting - How to Find the Best Odds",
+                "author": "Martin Derbyshire",
+                "url": "https://www.sportingnews.com/us/betting/news/line-shopping/0f917db9336b2772ba044571",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-06T22:21:05+00:00",
+                "fact": "Every sportsbook jumps on board when a line moves or odds change for a legitimate reason, like an injury or roster move."
+            },
+            {
+                "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/nba-roty-odds/7af3a635d324b28ff4c554fd",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-04T22:54:23+00:00",
+                "fact": "But sportsbooks are also gathering this information, and they begin to tighten the NBA Rookie of the Year lines in response."
+            }
+        ]
+    },
+    {
+        "query": "Does the Sporting News article suggest that T.J. Hockenson is expected to participate in Week 10's game, while the CBSSports.com article indicates that Dak Prescott did not participate in the final minutes of his game?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Fantasy Injury Updates Week 10: News on Justin Jefferson, Ja'Marr Chase, T.J. Hockenson & Curtis Samuel",
+                "author": "Nick Brinkerhoff",
+                "url": "https://www.sportingnews.com/us/fantasy/news/fantasy-injury-updates-week-10-jefferson-chase-hockenson/e836c8483a4efe09a42774e2",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-11T21:17:00+00:00",
+                "fact": "After turning in three limited practices this week, we'll trust that Hockenson is ready to go, especially since he continued to play through the ailment in Week 9 as a big part of the offense with Josh Dobbs under center."
+            },
+            {
+                "title": "NFL Fantasy Football Week 6 Lineup Decisions: Starts, Sits, Sleepers, Busts to know for every game",
+                "author": "Dave Richard",
+                "url": "https://www.cbssports.com/fantasy/football/news/nfl-fantasy-football-week-6-lineup-decisions-starts-sits-sleepers-busts-to-know-for-every-game/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-10-12T21:23:16+00:00",
+                "fact": "He didn't even play the last 12 minutes of the game and the Cowboys got blown out."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual associated with generative AI technology that was not ousted by the co-founders of Anthropic and is implicated by a prevailing theory of not being fully truthful with the board, as discussed in articles by 'Fortune', 'The Age', and 'TechCrunch'?",
+        "answer": "Sam Altman",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+                "author": "Matt O'Brien, The Associated Press",
+                "url": "https://fortune.com/2023/11/18/how-did-openai-fire-sam-altman-greg-brockman-rogue-board/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-11-18T15:33:09+00:00",
+                "fact": "But it was ChatGPT\u2019s explosion into public consciousness that thrust Altman into the spotlight as a face of generative AI \u2014 technology that can produce novel imagery, passages of text and other media."
+            },
+            {
+                "title": "How ego and fear fuelled the rise of artificial intelligence",
+                "author": "Cade Metz, Karen Weise, Nico Grant and Mike Isaac",
+                "url": "https://www.theage.com.au/business/entrepreneurship/how-ego-and-fear-fuelled-the-rise-of-artificial-intelligence-20231205-p5ep7j.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+                "source": "The Age",
+                "category": "business",
+                "published_at": "2023-12-09T18:30:00+00:00",
+                "fact": "\u201cThere was no attempt to remove Sam Altman from OpenAI by the co-founders of Anthropic,\u201d said an Anthropic spokesperson, Sally Aldous."
+            },
+            {
+                "title": "WTF is going on at OpenAI? We have theories",
+                "author": "Devin Coldewey",
+                "url": "https://techcrunch.com/2023/11/17/wtf-is-going-on-at-openai-sam-altman-fired/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-18T00:09:53+00:00",
+                "fact": "Based on the board\u2019s language and the way these giant tech companies work, this is the prevailing theory floating around right now."
+            }
+        ]
+    },
+    {
+        "query": "Between the TechCrunch report on Sam Bankman-Fried's trial and the subsequent TechCrunch report on the allegations against him, was there no change in the portrayal of his actions related to the FTX situation?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "Bankman-Fried was even compared to Warren Buffet and many called him the white horse of crypto (TechCrunch never did, for what it\u2019s worth)."
+            },
+            {
+                "title": "The jury finally hears from Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/27/23935683/sam-bankman-fried-ftx-fraud-direct-testimony-jury",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-28T00:12:41+00:00",
+                "fact": "Because FTX had grown so much, he could no longer run both companies, he said."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Does 'The Guardian' article suggest that the efficiency of the press and command of space are essential measures for the team's functioning in a similar way to how 'Sporting News' advises bettors of team golf events to consider each team's strengths and weaknesses?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "England choose survival over oblivion and a chance of summer trip to France | Jonathan Liew",
+                "author": "Jonathan Liew at Wembley",
+                "url": "https://www.theguardian.com/football/2023/dec/01/england-choose-survival-over-oblivion-and-a-chance-of-summer-trip-to-france",
+                "source": "The Guardian",
+                "category": "sports",
+                "published_at": "2023-12-01T22:57:40+00:00",
+                "fact": "It is also the essential measure of how the team is functioning as a collective: the efficiency of the press, the closing of the angles, the command of space."
+            },
+            {
+                "title": "Best Golf Betting Sites and Apps - Top Sportsbooks for Golf 2023",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/golf-betting-sites/7735c28b8c223b35fb013517",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-13T21:38:36+00:00",
+                "fact": "Factors to consider include recent player form, their history on the event's course, and any potential impacts like injuries."
+            }
+        ]
+    },
+    {
+        "query": "Did the 'Fortune' article on Beyonc\u00e9's '\"Renaissance\"' concert film report a different box office debut figure compared to the projected gross revenue for Taylor Swift's '\"Taylor Swift: The Eras Tour\"' mentioned in another 'Fortune' article?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Beyonc\u00e9\u00a0tops box office with $21 million debut for concert film \u2018Renaissance\u2019",
+                "author": "Lindsey Bahr, The Associated Press",
+                "url": "https://fortune.com/2023/12/03/beyonce-tops-box-office-concert-film-renaissance/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-12-03T19:51:02+00:00",
+                "fact": "No one expected \u201cRenaissance\u201d to match \u201cThe Eras Tour,\u201d which is wrapping up its theatrical run soon with over $250 million globally."
+            },
+            {
+                "title": "Taylor Swift has already sold over $100 million of tickets for her concert movie. Theaters nationwide brace for impact",
+                "author": "Jake Coyle, The Associated Press",
+                "url": "https://fortune.com/2023/10/10/taylor-swift-eras-tour-movie-amc-concert-blockbuster/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-10T20:11:16+00:00",
+                "fact": "The tour, which is projected by Pollstar to gross some $1.4 billion, crashed Ticketmaster\u2019s site, saw sky-high resale mark-ups and left many fans priced out."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from an article in The Times of India and another from The Hindustan Times on Agastya Nanda, which upcoming film, as per The Times of India, marks his acting debut, and who, according to The Hindustan Times, is his legendary grandfather with whom he shares his surname?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Was there no change in the focus of reporting on Uber from safety concerns to financial outcomes between the TechCrunch report on Uber's safety measures published on October 13, 2023, and the TechCrunch report on Uber's financial performance in the third quarter published on November 7, 2023?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Uber\u2019s Q3 numbers include impressive profitability gains, slower-than-expected growth",
+                "author": "Kirsten Korosec",
+                "url": "https://techcrunch.com/2023/11/07/ubers-q3-numbers-profitability-gains/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-07T17:03:41+00:00",
+                "fact": "In the third quarter, Uber generated $394 million in operating income and $219 million worth of net income."
+            },
+            {
+                "title": "Uber sexual assault survivors call for in-car cameras, tech upgrades",
+                "author": "Rebecca Bellan",
+                "url": "https://techcrunch.com/2023/10/13/uber-sexual-assault-survivors-call-for-in-car-cameras-tech-upgrades/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-13T19:26:48+00:00",
+                "fact": "The survivors in the joined lawsuit also allege that Uber\u2019s \u201cfast and shallow background checks\u201d are substandard and designed to make it as easy as possible for drivers to sign up quickly."
+            }
+        ]
+    }
+]

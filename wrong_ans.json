@@ -1,0 +1,9 @@
+[
+    [
+        {
+            "query": "Which entity is currently engaged with Amazon to address competition concerns, facilitating dialogue with consumer groups against Meta, deploying staff within its AI Office for future regulations, and has previously focused on illegal content and disinformation issues related to the Israel-Hamas war, as reported by TechCrunch?",
+            "llm_ans": "Insufficient information.",
+            "ground_truth": "European Commission"
+        }
+    ]
+]

@@ -1,0 +1,516 @@
+[
+    {
+        "query": "Did the stance on energy policy by 'The government' as reported by 'Business Line' before November 11, 2023, show consistency with the global pledge reported by 'The Verge' involving 'More than 100 countries' to triple renewable energy capacity by 2030?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "NTPC: Why investors can accumulate this stock",
+                "author": null,
+                "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/ntpc-why-investors-can-accumulate-this-stock/article67517684.ece",
+                "source": "Business Line",
+                "category": "business",
+                "published_at": "2023-11-11T16:26:58+00:00",
+                "fact": "Alongside the government\u2019s thrust on ramping up renewable energy capacity, building incremental thermal capacity has also been a priority."
+            },
+            {
+                "title": "The world came tantalizingly close to a deal to phase out fossil fuels",
+                "author": "Justine Calma",
+                "url": "https://www.theverge.com/2023/12/13/23993937/dubai-un-climate-change-conference-cop28-united-nations-fossil-fuels",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-12-13T07:27:19+00:00",
+                "fact": "It calls for the tripling of renewable energy capacity globally by 2030, something that more than 100 countries had already pledged to do while negotiations were taking place last week."
+            }
+        ]
+    },
+    {
+        "query": "Who is the individual facing a criminal trial, as reported by TechCrunch, for seven counts of fraud and conspiracy, and is also alleged by the prosecution to have knowingly committed fraud for personal gains, and was mentioned in The Verge for informing a trader about permissible withdrawals from an account linked to his company's trading revenue?",
+        "answer": "Sam Bankman-Fried",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "In the end, the FTX trial was about the friends screwed along the way",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/26/23931777/ftx-sam-bankman-fried-prosecution-case-friends-family",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-26T12:00:00+00:00",
+                "fact": "Wang testified that he heard Bankman-Fried tell another trader that it was okay to continue withdrawing money from the account as long as the amount was less than FTX\u2019s total trading revenue."
+            },
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "The highly anticipated criminal trial for Sam Bankman-Fried, former CEO of bankrupt crypto exchange FTX, started Tuesday to determine whether he\u2019s guilty of seven counts of fraud and conspiracy."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Does the article from Fortune suggest that the lawsuit had no impact on Rogers Communications Inc.'s share price, while the article from The Guardian indicates that Ed Ternan believes suing Snapchat is counterproductive?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Power struggle in one of Canada\u2019s wealthiest clans has sister accusing chairman brother of \u2018vendetta\u2019",
+                "author": "Derek Decloet, Bloomberg",
+                "url": "https://fortune.com/2023/10/12/rogers-communications-family-heirs-sue-company-in-bitter-board-fight/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-12T22:22:46+00:00",
+                "fact": "Shares of Rogers extended losses on news of the lawsuit, closing down 2.2% to C$53.07 in Toronto."
+            },
+            {
+                "title": "Their kids died after buying drugs on Snapchat. Now the parents are suing",
+                "author": "Robin Buller in Oakland, California",
+                "url": "https://www.theguardian.com/technology/2023/oct/18/snapchat-sued-overdose-deaths",
+                "source": "The Guardian",
+                "category": "technology",
+                "published_at": "2023-10-18T10:00:21+00:00",
+                "fact": "Ed Ternan, whose 21-year-old son Charlie died in April 2020 after taking a counterfeit Percocet he bought on Snapchat, sees suing the platform as counterproductive."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a BBC News article about the recent economic developments in Kuala Lumpur and a CNN report on the city's new environmental initiatives, which single letter represents both the first initial of the Minister of Finance mentioned by BBC News and the first initial of the head of the environmental project highlighted by CNN?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Between the TechCrunch report on Sam Bankman-Fried before October 2, 2023, and the TechCrunch report on Sam Bankman-Fried before October 7, 2023, was there consistency in the portrayal of his alleged criminal activities?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Sam Bankman-Fried was a terrible boyfriend",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/10/10/23912036/sam-bankman-fried-ftx-caroline-ellison-alameda-research",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-10T23:50:21+00:00",
+                "fact": "It was Bankman-Fried\u2019s decision, she said, as he was the CEO of FTX."
+            },
+            {
+                "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+                "author": "Ingrid Lunden",
+                "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-02T13:11:07+00:00",
+                "fact": "SBF, as he\u2019s known, has pleaded not-guilty to some seven charges of fraud and conspiracy."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a CNBC article detailing Visa Inc's latest strategic partnership and a Bloomberg report on Visa Inc's financial performance in the last quarter, which single letter grade represents the combined assessment of Visa's market strategy effectiveness and its financial health as inferred from both sources?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Between the report by TechCrunch on November 21, 2023, regarding Binance CEO 'CZ' (Zhao) agreeing to a fine and stepping down, and the report by Fortune on December 18, 2023, involving Judge John J. Walton accepting a plea agreement in a child abuse case, which news source detailed a legal agreement involving a high-profile individual's acceptance of responsibility?",
+        "answer": "TechCrunch",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Binance to pay $4.3B in fines and CEO \u2018CZ\u2019 to step down, plead guilty to anti-money laundering charges",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/11/21/binance-to-pay-4-3b-in-fines-and-ceo-cz-to-step-down-plead-guilty-to-anti-money-laundering-charges/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-21T17:34:32+00:00",
+                "fact": "Under Zhao\u2019s plea agreement, he will agree to the recommendation that the court impose a $150 million fine to the CFTC and won\u2019t make any statements \u201ccontradicting his acceptance of responsibility,\u201d according to a separate filing from Monday."
+            },
+            {
+                "title": "YouTube influencer who gave parenting advice pleads guilty to horrific child abuse",
+                "author": "Amy Beth Hanson, The Associated Press",
+                "url": "https://fortune.com/2023/12/18/youtube-mom-influencer-parenting-advice-ruby-franke-pleads-guilty-child-abuse-case/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-12-18T22:35:52+00:00",
+                "fact": "Judge John J. Walton scheduled sentencing for Feb. 20 after accepting the plea agreement, which described new details of the abuse the children endured, including the claims that they were possessed."
+            }
+        ]
+    },
+    {
+        "query": "Did the 'Fortune' article imply that Sam Bankman-Fried's handling of FTX and customer funds at Alameda Research was entirely transparent and proper, unlike the allegations of fraud for personal gain mentioned in the 'TechCrunch' article?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "But \u201call of that, all of it, was built on lies,\u201d Rehn declared to the jury."
+            },
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "Using Caroline Ellison, his on-again off-again girlfriend and the CEO of Alameda, as a front, Bankman-Fried had \u201csecret access\u201d to customer money\u2014both cash and crypto\u2014the government claimed."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Does the article from Fortune suggest that Sam Bankman-Fried had secret access to FTX customers' money through Alameda Research, while the report from Cnbc | World Business News Leader indicates that there was a concern about the risk to FTX customers' funds without specifying secret access?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Is Sam Bankman-Fried a bad \u2018man\u2019 or a good \u2018boy\u2019? Lawyers swap opening statements before first witnesses take the stand",
+                "author": "Ben Weiss",
+                "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+                "source": "Fortune",
+                "category": "business",
+                "published_at": "2023-10-04T23:32:53+00:00",
+                "fact": "Using Caroline Ellison, his on-again off-again girlfriend and the CEO of Alameda, as a front, Bankman-Fried had \u201csecret access\u201d to customer money\u2014both cash and crypto\u2014the government claimed."
+            },
+            {
+                "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+                "author": null,
+                "url": "https://www.cnbc.com/2023/10/06/sex-signal-messages-and-sabotaging-ftxs-code-sbf-criminal-trial.html",
+                "source": "Cnbc | World Business News Leader",
+                "category": "business",
+                "published_at": "2023-10-06T20:17:00+00:00",
+                "fact": "He was concerned because it \"seemed like a lot of money\" from FTX customers was at risk."
+            }
+        ]
+    },
+    {
+        "query": "What type of establishments, as reported by Sporting News, are known to manipulate betting lines in response to events like injuries, and are also capable of ensuring profit from the odds regardless of the outcome, particularly in situations like the NBA Rookie of the Year bets?",
+        "answer": "Sportsbooks",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "Line Shopping in Sports Betting - How to Find the Best Odds",
+                "author": "Martin Derbyshire",
+                "url": "https://www.sportingnews.com/us/betting/news/line-shopping/0f917db9336b2772ba044571",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-06T22:21:05+00:00",
+                "fact": "That allows sportsbooks to earn the profit built into the odds and lines without worrying about which side wins."
+            },
+            {
+                "title": "Line Shopping in Sports Betting - How to Find the Best Odds",
+                "author": "Martin Derbyshire",
+                "url": "https://www.sportingnews.com/us/betting/news/line-shopping/0f917db9336b2772ba044571",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-06T22:21:05+00:00",
+                "fact": "Every sportsbook jumps on board when a line moves or odds change for a legitimate reason, like an injury or roster move."
+            },
+            {
+                "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+                "author": "Sam Eggleston",
+                "url": "https://www.sportingnews.com/us/betting/news/nba-roty-odds/7af3a635d324b28ff4c554fd",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-10-04T22:54:23+00:00",
+                "fact": "But sportsbooks are also gathering this information, and they begin to tighten the NBA Rookie of the Year lines in response."
+            }
+        ]
+    },
+    {
+        "query": "Did the article from The Verge suggest that Sam Bankman-Fried was perceived consistently in terms of trustworthiness within the cryptocurrency industry compared to the allegations of fraud and conspiracy presented in the TechCrunch articles?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "The FTX trial is bigger than Sam Bankman-Fried",
+                "author": "Elizabeth Lopatto",
+                "url": "https://www.theverge.com/2023/9/28/23893269/ftx-sam-bankman-fried-trial-evidence-crypto",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-09-28T12:00:00+00:00",
+                "fact": "Before his fall, Bankman-Fried made himself out to be the Good Boy of crypto \u2014 the trustworthy face of a sometimes-shady industry."
+            },
+            {
+                "title": "SBF\u2019s trial starts soon, but how did he \u2014 and FTX \u2014 get here?",
+                "author": "Jacquelyn Melinek",
+                "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-01T14:00:29+00:00",
+                "fact": "The highly anticipated criminal trial for Sam Bankman-Fried, former CEO of bankrupt crypto exchange FTX, started Tuesday to determine whether he\u2019s guilty of seven counts of fraud and conspiracy."
+            },
+            {
+                "title": "Sam Altman backs teens\u2019 startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-10-07T20:15:26+00:00",
+                "fact": "The prosecution painted Bankman-Fried as someone who knowingly committed fraud to achieve great wealth, power and influence, while the defense countered that the FTX founder acted in good faith, never meant to commit fraud or steal and basically got in over his head."
+            }
+        ]
+    },
+    {
+        "query": "Does the 'Business Line' article on investment options for high networth investors suggest evaluating the same criteria, specifically historical performance and management team, before making decisions as the 'Business Line' article recommends for investors considering Reliance Industries stock?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "Investment options for high networth investors",
+                "author": null,
+                "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/investment-options-for-high-networth-investors/article67465515.ece",
+                "source": "Business Line",
+                "category": "business",
+                "published_at": "2023-10-28T14:42:28+00:00",
+                "fact": "It\u2019s important to consider the past track record and management team before making investment decisions."
+            },
+            {
+                "title": "Reliance Industries: With the stock having underperformed Nifty 50 in last three years, is it time to buy?",
+                "author": null,
+                "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/reliance-industries-with-the-stock-having-underperformed-nifty-50-in-last-three-years-is-it-time-to-buy/article67618354.ece",
+                "source": "Business Line",
+                "category": "business",
+                "published_at": "2023-12-09T13:15:42+00:00",
+                "fact": "With the stock still leaving some money on the table at current levels, long-term investors can accumulate it on dips for four reasons \u2014 one, reasonable valuations; two, being at pole position in India\u2019s high-growth digital and retail business; three, potential for large-scale value creation, similar to its digital and retail forays, in the renewable energy space (not reflected in current valuations); four, stable O2C business."
+            }
+        ]
+    },
+    {
+        "query": "What is the name of the AI-powered chatbot that was reported by both Engadget and TechCrunch to have celebrated its first anniversary, witnessed a significant increase in usage during December 2022, and achieved 100 million weekly active users, while being capable of performing a diverse range of tasks such as debugging code, composing music, and emulating a Linux environment?",
+        "answer": "ChatGPT",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "How OpenAI's ChatGPT has changed the world in just a year",
+                "author": "Andrew Tarantola",
+                "url": "https://www.engadget.com/how-openais-chatgpt-has-changed-the-world-in-just-a-year-140050053.html?src=rss",
+                "source": "Engadget",
+                "category": "technology",
+                "published_at": "2023-11-30T14:00:50+00:00",
+                "fact": "On the first anniversary of its release, let\u2019s take a look back on the year of ChatGPT that brought us here."
+            },
+            {
+                "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+                "author": "Alyssa Stringer",
+                "url": "https://techcrunch.com/2023/09/28/chatgpt-everything-to-know-about-the-ai-chatbot/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-09-28T20:03:39+00:00",
+                "fact": "Since its initial launch nearly a year ago, ChatGPT has hit 100 million weekly active users, and OpenAI is heavily investing in it."
+            },
+            {
+                "title": "How OpenAI's ChatGPT has changed the world in just a year",
+                "author": "Andrew Tarantola",
+                "url": "https://www.engadget.com/how-openais-chatgpt-has-changed-the-world-in-just-a-year-140050053.html?src=rss",
+                "source": "Engadget",
+                "category": "technology",
+                "published_at": "2023-11-30T14:00:50+00:00",
+                "fact": "Throughout December 2022, ChatGPT\u2019s usage numbers rose meteorically as more and more people logged on to try it for themselves."
+            },
+            {
+                "title": "One year later, ChatGPT is still alive and kicking",
+                "author": "Kyle Wiggers",
+                "url": "https://techcrunch.com/2023/11/30/one-year-later-chatgpt-is-still-alive-and-kicking/",
+                "source": "TechCrunch",
+                "category": "technology",
+                "published_at": "2023-11-30T14:10:43+00:00",
+                "fact": "ChatGPT can complete and debug code, compose music and essays, answer test questions, generate business ideas, write poetry and song lyrics, translate and summarize text and even emulate a computer running Linux."
+            }
+        ]
+    },
+    {
+        "query": "After The Verge reported on the compatibility of the Google Nest Thermostat with every major smart home platform due to its integration with the Matter standard on October 10, 2023, did Wired describe the Beats Fit Pro earbuds as being compatible with Android and offering an app for customization on November 25, 2023?",
+        "answer": "Consistent",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "The best Prime Day smart home deals",
+                "author": "Jennifer Pattison Tuohy",
+                "url": "https://www.theverge.com/23906464/amazon-october-prime-day-best-smart-home-deals-device-google-alexa-2023",
+                "source": "The Verge",
+                "category": "technology",
+                "published_at": "2023-10-10T20:12:26+00:00",
+                "fact": "It is also the only thermostat that works with the new smart home standard, Matter, so it's compatible with every major smart home platform, including Apple Home."
+            },
+            {
+                "title": "54 Best Apple Black Friday Deals (2023): iPad, Apple Watch, AirPods",
+                "author": "Brenda Stolyar",
+                "url": "https://www.wired.com/story/best-apple-black-friday-deals-2023-2/",
+                "source": "Wired",
+                "category": "technology",
+                "published_at": "2023-11-25T00:00:29+00:00",
+                "fact": "But they also work great with Android, complete with an app that allows you to customize the controls and perform a fit test."
+            }
+        ]
+    },
+    {
+        "query": "Did 'The Guardian' describe Shai Hope's performance against legspin bowling in the first T20 international identically to how 'The Guardian' describes his role in the fifth T20 international?",
+        "answer": "no",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "West Indies v England: first T20 international \u2013 live",
+                "author": "James Wallace",
+                "url": "https://www.theguardian.com/sport/live/2023/dec/12/west-indies-v-england-first-t20-international-cricket-live",
+                "source": "The Guardian",
+                "category": "sports",
+                "published_at": "2023-12-12T21:49:56+00:00",
+                "fact": "13 Dec 2023 00.58 GMT 12th over: West Indies 102-4 (Hope 26, Hetmyer 1) Just a single and the wicket off the over, Shai Hope can\u2019t break the legspin shackles."
+            },
+            {
+                "title": "West Indies v England: fifth and deciding men\u2019s T20 cricket international \u2013 live",
+                "author": "Rob Smyth",
+                "url": "https://www.theguardian.com/sport/live/2023/dec/21/west-indies-v-england-fifth-and-deciding-mens-t20-cricket-international-live",
+                "source": "The Guardian",
+                "category": "sports",
+                "published_at": "2023-12-21T19:39:01+00:00",
+                "fact": "Instead it\u2019s Shai Hope, who is happily playing the anchor role, who faces five of the six deliveries."
+            }
+        ]
+    },
+    {
+        "query": "Was the news regarding YouTube's involvement with artists in AI experiments inconsistent between the report from Music Business Worldwide on YouTube's collaboration with non-UMG-affiliated artists and the subsequent report from the same source on YouTube's launch of 'Dream Track'?",
+        "answer": "no",
+        "question_type": "temporal_query",
+        "evidence_list": [
+            {
+                "title": "Sony Music\u2019s artists aren\u2019t involved in YouTube\u2019s new voice-cloning AI experiment. Not unrelated: Google\u2019s recent filing with the US Copyright Office.",
+                "author": "Tim Ingham",
+                "url": "https://www.musicbusinessworldwide.com/sony-musics-artists-arent-involved-in-youtubes-new-cloned-voice-ai-experiment-not-unrelated-googles-recent-filing-with-the-us-copyright-office/",
+                "source": "Music Business Worldwide",
+                "category": "business",
+                "published_at": "2023-11-23T18:48:48+00:00",
+                "fact": "To progress this \u2018incubator\u2019, YouTube said it was working behind the scenes with a number of UMG-affiliated artists; Also in August, YouTube publicly committed to three principles/pledges behind its development of music-based generative AI tools ."
+            },
+            {
+                "title": "Sony Music\u2019s artists aren\u2019t involved in YouTube\u2019s new voice-cloning AI experiment. Not unrelated: Google\u2019s recent filing with the US Copyright Office.",
+                "author": "Tim Ingham",
+                "url": "https://www.musicbusinessworldwide.com/sony-musics-artists-arent-involved-in-youtubes-new-cloned-voice-ai-experiment-not-unrelated-googles-recent-filing-with-the-us-copyright-office/",
+                "source": "Music Business Worldwide",
+                "category": "business",
+                "published_at": "2023-11-23T18:48:48+00:00",
+                "fact": "Seven days ago (November 16), YouTube unveiled a revolutionary new experiment \u2013 \u2018Dream Track\u2019 \u2013 enabling creators to clone the vocals, via AI tech and with official consent, of well-known stars."
+            },
+            {
+                "title": "Cell phone shocker as 97% of kids use their device during school hours and beyond, says study",
+                "author": null,
+                "url": "https://www.foxnews.com/health/cell-phone-shocker-97-percent-kids-use-device-during-school-hours-beyond-study",
+                "source": "FOX News - Health",
+                "category": "health",
+                "published_at": "2023-10-01T09:05:26+00:00",
+                "fact": "Overnight phone use was primarily spent engaging with the same media, although YouTube appeared to be the longest-running app because videos were often left playing during the night."
+            }
+        ]
+    },
+    {
+        "query": "Which pop star, who became public property by the age of 16 according to The Guardian, was commended by Kevin Federline for responsibly dealing with her situation as reported by The Independent - Life and Style, and was also claimed by Jason Alexander to be his first and only wife in addition to being forced to take lithium against her will?",
+        "answer": "Britney Spears",
+        "question_type": "inference_query",
+        "evidence_list": [
+            {
+                "title": "From Justin Timberlake to Sam Asghari: A timeline of Britney Spears\u2019 relationships",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/justin-timberlake-sam-asghari-britney-spears-b2431507.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-18T03:46:39+00:00",
+                "fact": "In a Los Angeles court hearing at the time, Spears alleged that she had been forced to take lithium against her will."
+            },
+            {
+                "title": "From Justin Timberlake to Sam Asghari: A timeline of Britney Spears\u2019 relationships",
+                "author": "Amber Raiken",
+                "url": "https://www.independent.co.uk/life-style/justin-timberlake-sam-asghari-britney-spears-b2431507.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-18T03:46:39+00:00",
+                "fact": "\u201cShe\u2019s my first wife, my only wife,\u201d Alexander reportedly told security."
+            },
+            {
+                "title": "Britney Spears and Kevin Federline: A complete timeline of their relationship",
+                "author": "Meredith Clark",
+                "url": "https://www.independent.co.uk/life-style/britney-spears-kevin-federline-relationship-timeline-b2143493.html",
+                "source": "The Independent - Life and Style",
+                "category": "entertainment",
+                "published_at": "2023-10-20T15:02:26+00:00",
+                "fact": "After hearing the news, Federline\u2019s attorney Mark Kaplan told Entertainment Tonight: \u201cKevin commends Britney for recognising that she needs to take a step back and that she is taking the reasonable steps to dealing with her situation in a responsible way."
+            },
+            {
+                "title": "\u2018I was being ritually tortured\u2019: the most shocking moments in Britney Spears\u2019 memoir",
+                "author": "Laura Snapes",
+                "url": "https://www.theguardian.com/music/2023/oct/24/britney-spears-memoir-most-shocking-woman-in-me",
+                "source": "The Guardian",
+                "category": "entertainment",
+                "published_at": "2023-10-24T18:37:25+00:00",
+                "fact": "But by the age of 16, she is public property \u2013 incapable of going outside without being mobbed, and her love of singing and dancing now a lucrative resource."
+            }
+        ]
+    },
+    {
+        "query": "Does the CBSSports.com article suggest that the Tampa Bay Buccaneers could have success with a Michigan quarterback similar to past achievements, while the Sporting News article indicates that The Big Ten is currently engaged in a review process concerning Michigan and Jim Harbaugh, without implying any success with a quarterback?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": [
+            {
+                "title": "2024 NFL Mock Draft: Bengals' Joe Burrow gets another playmaker; four QBs go in Round 1, but Pats opt for WR",
+                "author": "Josh Edwards",
+                "url": "https://www.cbssports.com/nfl/draft/news/2024-nfl-mock-draft-bengals-joe-burrow-gets-another-playmaker-four-qbs-go-in-round-1-but-pats-opt-for-wr/",
+                "source": "CBSSports.com",
+                "category": "sports",
+                "published_at": "2023-11-17T20:07:09+00:00",
+                "fact": "It was a Michigan quarterback that led the Buccaneers to the promised land last time so perhaps lightning strikes twice."
+            },
+            {
+                "title": "Michigan sign-stealing scandal news: Latest updates on possible Jim Harbaugh suspension from NCAA cheating investigation",
+                "author": "Dan Treacy",
+                "url": "https://www.sportingnews.com/us/ncaa-football/news/michigan-sign-stealing-scandal-updates-jim-harbaugh-suspension/4072ec7b8f79e8a6a3251892",
+                "source": "Sporting News",
+                "category": "sports",
+                "published_at": "2023-11-06T23:58:04+00:00",
+                "fact": "Source: The Big Ten is reviewing the lengthy written responses from both Michigan and Jim Harbaugh."
+            }
+        ]
+    },
+    {
+        "query": "Considering the information from a Wall Street Journal article and a New York Times piece on Andrew Beaton, which NFL team, known for its distinct helmet design, was the subject of Beaton's analysis regarding their strategic decisions in the off-season as reported by the Wall Street Journal, and also mentioned in the New York Times for their unexpected player trade move?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Considering the information from a BBC News article and a Reuters report on The Global Fund, which country, identified as a significant beneficiary of the fund's aid in the BBC article, was also mentioned in the Reuters report as having made a substantial pledge to The Global Fund's recent fundraising campaign?",
+        "answer": "Insufficient information.",
+        "question_type": "null_query",
+        "evidence_list": []
+    }
+]
