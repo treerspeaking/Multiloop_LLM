@@ -342,13 +342,14 @@ Question: {input}
             
         docs = self.retriever.invoke(query)
         results = []
+        max_length = 300
         
         if not docs:
             return "No relevant documents found for your query."
 
         for i, doc in enumerate(docs):
             source = doc.metadata.get("source", "unknown")
-            content_preview = doc.page_content[:300] + "..." if len(doc.page_content) > 300 else doc.page_content
+            content_preview = doc.page_content[:max_length] + "..." if len(doc.page_content) > max_length else doc.page_content
             results.append(f"Document {i+1} (Source: {source}):\n{content_preview}\n")
             
         return "\n".join(results)
@@ -515,7 +516,7 @@ Question: {input}
 if __name__ == "__main__":
     
     output_file = "/home/treerspeaking/src/python/Multiloop_LLM/react_rag_output.json"
-    ques_file = "/home/treerspeaking/src/python/Multiloop_LLM/hard_ques.json"
+    ques_file = "/home/treerspeaking/src/python/Multiloop_LLM/output_chunks/output_part_1.json"
     
     with open(output_file, "w") as json_file:
         json.dump([], json_file, indent=4)
