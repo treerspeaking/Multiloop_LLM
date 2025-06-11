@@ -31,3 +31,12 @@ python compare_result.py
 ```
 
 The detail of the result will be output in detailed_evaluation_results.json, In addition, there will also be wrong_answers_with_f1.json where all the wrong result are output for further inspection in order to propose the new methods.
+
+The final result is:
+exact_match_accuracy": 0.58,
+exact_matches": 58,
+average_precision": 0.595,
+average_recall": 0.5933333333333333,
+average_f1_score": 0.5916666666666667,
+average_iter_count": 2.41,
+incorrect_count": 42
