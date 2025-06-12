@@ -1,0 +1,11 @@
+name: multihop
+channels:
+  - conda-forge
+dependencies:
+  - python==3.11
+  - langchain
+  - langchain-community
+  - langchain-core
+  - langchain-google-genai
+  - pipreqs
+prefix: /home/treerspeaking/miniforge3/envs/multihop

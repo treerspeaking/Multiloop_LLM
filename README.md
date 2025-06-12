@@ -2,7 +2,7 @@
 
 This is the simple implementation of the ReAct Pipeline.
 
-To run the repository Follow the following step
+To run the repository Follow the following step:
 
 ## 1
 
@@ -12,7 +12,21 @@ Export the Google Gemini key which are available for free through the [Google AI
 export GOOGLE_API_KEY="YOUR API KEY"
 ```
 
-## 2 
+## 2
+
+Create the required environment.
+
+```bash
+conda env create -f environment.yml
+```
+
+Activate the environment.
+
+```bash
+conda activate multihop
+```
+
+## 3
 
 To generate the output prediction, run the pipeline_ReAct.py
 
@@ -22,7 +36,7 @@ python pipeline_ReAct.py
 
 The result will be output in react_rag_output.json
 
-## 3 
+## 4
 
 Finally to evaluate the result run
 
